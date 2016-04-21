@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,7 +17,90 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="95V-EW-299">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOMEPOK.УКР" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ref-Ah-iGA">
+                                        <rect key="frame" x="8" y="137" width="584" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                        <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Український довідник автомобільних номерів" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="69Z-eR-frg">
+                                        <rect key="frame" x="8" y="173.5" width="584" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by Alexander Iashchuk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="IbU-XA-cXn">
+                                        <rect key="frame" x="8" y="274" width="584" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.35686274509999999" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ref-Ah-iGA" firstAttribute="centerX" secondItem="95V-EW-299" secondAttribute="centerX" id="069-xK-bkm"/>
+                                    <constraint firstAttribute="bottom" secondItem="IbU-XA-cXn" secondAttribute="bottom" constant="8" id="7XX-Rq-ME2"/>
+                                    <constraint firstItem="IbU-XA-cXn" firstAttribute="leading" secondItem="95V-EW-299" secondAttribute="leading" constant="8" id="Acq-KR-605"/>
+                                    <constraint firstItem="69Z-eR-frg" firstAttribute="trailing" secondItem="95V-EW-299" secondAttribute="trailingMargin" id="Qyw-xf-3Ib"/>
+                                    <constraint firstAttribute="trailing" secondItem="IbU-XA-cXn" secondAttribute="trailing" constant="8" id="VQ0-cS-eug"/>
+                                    <constraint firstItem="ref-Ah-iGA" firstAttribute="centerY" secondItem="95V-EW-299" secondAttribute="centerY" id="Xuf-vU-11z"/>
+                                    <constraint firstItem="ref-Ah-iGA" firstAttribute="trailing" secondItem="95V-EW-299" secondAttribute="trailingMargin" id="fZp-Cp-ZCJ"/>
+                                    <constraint firstItem="69Z-eR-frg" firstAttribute="top" secondItem="ref-Ah-iGA" secondAttribute="bottom" constant="10" id="o6x-cb-mIe"/>
+                                    <constraint firstItem="ref-Ah-iGA" firstAttribute="leading" secondItem="95V-EW-299" secondAttribute="leadingMargin" id="pnv-cp-X4Z"/>
+                                    <constraint firstItem="69Z-eR-frg" firstAttribute="leading" secondItem="95V-EW-299" secondAttribute="leadingMargin" id="uLb-GP-5Lw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDb-6s-kGi">
+                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalCompressionResistancePriority="250" image="mapUkraine28" translatesAutoresizingMaskIntoConstraints="NO" id="XIA-ZH-QDp">
+                                        <rect key="frame" x="8" y="8" width="584" height="258"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2016 iashchuk.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="uXb-5i-DUS">
+                                        <rect key="frame" x="8" y="273.5" width="584" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.35686274509999999" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="uXb-5i-DUS" firstAttribute="centerX" secondItem="aDb-6s-kGi" secondAttribute="centerX" id="C2d-yQ-4ZC"/>
+                                    <constraint firstItem="uXb-5i-DUS" firstAttribute="top" secondItem="XIA-ZH-QDp" secondAttribute="bottom" constant="8" id="D3P-dl-sve"/>
+                                    <constraint firstItem="uXb-5i-DUS" firstAttribute="leading" secondItem="aDb-6s-kGi" secondAttribute="leadingMargin" id="DGt-Cv-tN7"/>
+                                    <constraint firstItem="XIA-ZH-QDp" firstAttribute="centerX" secondItem="aDb-6s-kGi" secondAttribute="centerX" id="Ejy-Ko-f9W"/>
+                                    <constraint firstItem="XIA-ZH-QDp" firstAttribute="leading" secondItem="aDb-6s-kGi" secondAttribute="leading" constant="8" id="PDR-zH-VEU"/>
+                                    <constraint firstAttribute="bottom" secondItem="XIA-ZH-QDp" secondAttribute="bottom" constant="8" id="UNG-wz-cOF"/>
+                                    <constraint firstAttribute="bottom" secondItem="uXb-5i-DUS" secondAttribute="bottom" constant="8" id="d0F-MS-0O8"/>
+                                    <constraint firstAttribute="trailing" secondItem="XIA-ZH-QDp" secondAttribute="trailing" constant="8" id="dfl-87-LPE"/>
+                                    <constraint firstItem="uXb-5i-DUS" firstAttribute="trailing" secondItem="aDb-6s-kGi" secondAttribute="trailingMargin" id="mgL-vv-Ufh"/>
+                                    <constraint firstItem="XIA-ZH-QDp" firstAttribute="centerY" secondItem="aDb-6s-kGi" secondAttribute="centerY" id="thJ-oE-a00"/>
+                                    <constraint firstItem="XIA-ZH-QDp" firstAttribute="top" secondItem="aDb-6s-kGi" secondAttribute="top" constant="8" id="uNF-Sa-49k"/>
+                                    <constraint firstItem="uXb-5i-DUS" firstAttribute="bottom" secondItem="aDb-6s-kGi" secondAttribute="bottomMargin" id="uzF-WF-LuJ"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="UNG-wz-cOF"/>
+                                        <exclude reference="thJ-oE-a00"/>
+                                        <exclude reference="d0F-MS-0O8"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="aDb-6s-kGi" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="02J-rt-w59"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="aDb-6s-kGi" secondAttribute="bottom" id="660-Xf-FSf"/>
+                            <constraint firstItem="aDb-6s-kGi" firstAttribute="height" secondItem="95V-EW-299" secondAttribute="height" id="aMS-us-b2y"/>
+                            <constraint firstAttribute="trailing" secondItem="aDb-6s-kGi" secondAttribute="trailing" id="j5s-ow-Gcz"/>
+                            <constraint firstItem="95V-EW-299" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="oW0-aI-fVe"/>
+                            <constraint firstItem="95V-EW-299" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="tcx-rX-t5W"/>
+                            <constraint firstItem="aDb-6s-kGi" firstAttribute="top" secondItem="95V-EW-299" secondAttribute="bottom" id="vwO-Cb-7OU"/>
+                            <constraint firstAttribute="trailing" secondItem="95V-EW-299" secondAttribute="trailing" id="z3D-NH-2gw"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +108,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="mapUkraine28" width="302" height="203"/>
+    </resources>
 </document>
