@@ -10,10 +10,10 @@
 		2A5CF3011CC110E000039F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3001CC110E000039F01 /* AppDelegate.swift */; };
 		2A5CF3031CC110E000039F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3021CC110E000039F01 /* ViewController.swift */; };
 		2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CF3041CC110E000039F01 /* Main.storyboard */; };
-		2A5CF3081CC110E000039F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CF3071CC110E000039F01 /* Assets.xcassets */; };
 		2A5CF30B1CC110E000039F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */; };
 		2A5CF3161CC110E000039F01 /* HOMEPOKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3151CC110E000039F01 /* HOMEPOKTests.swift */; };
 		2A5CF3211CC110E000039F01 /* HOMEPOKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3201CC110E000039F01 /* HOMEPOKUITests.swift */; };
+		2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		2A5CF3001CC110E000039F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A5CF3021CC110E000039F01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A5CF3051CC110E000039F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2A5CF3071CC110E000039F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A5CF30A1CC110E000039F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A5CF30C1CC110E000039F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A5CF3111CC110E000039F01 /* HOMEPOKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOMEPOKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,8 @@
 		2A5CF31C1CC110E000039F01 /* HOMEPOKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOMEPOKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5CF3201CC110E000039F01 /* HOMEPOKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOMEPOKUITests.swift; sourceTree = "<group>"; };
 		2A5CF3221CC110E000039F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE3EDAC1CC61E6900AFDB4D /* HOMEPOK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HOMEPOK.entitlements; sourceTree = "<group>"; };
+		2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +98,11 @@
 		2A5CF2FF1CC110E000039F01 /* HOMEPOK */ = {
 			isa = PBXGroup;
 			children = (
+				2AE3EDAC1CC61E6900AFDB4D /* HOMEPOK.entitlements */,
 				2A5CF3001CC110E000039F01 /* AppDelegate.swift */,
 				2A5CF3021CC110E000039F01 /* ViewController.swift */,
 				2A5CF3041CC110E000039F01 /* Main.storyboard */,
-				2A5CF3071CC110E000039F01 /* Assets.xcassets */,
+				2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */,
 				2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */,
 				2A5CF30C1CC110E000039F01 /* Info.plist */,
 			);
@@ -193,6 +195,12 @@
 				TargetAttributes = {
 					2A5CF2FC1CC110E000039F01 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3NL9BUS2QV;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					2A5CF3101CC110E000039F01 = {
 						CreatedOnToolsVersion = 7.3;
@@ -230,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5CF30B1CC110E000039F01 /* LaunchScreen.storyboard in Resources */,
-				2A5CF3081CC110E000039F01 /* Assets.xcassets in Resources */,
+				2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */,
 				2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +407,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HOMEPOK/HOMEPOK.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HOMEPOK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.HOMEPOK;
@@ -410,6 +420,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HOMEPOK/HOMEPOK.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HOMEPOK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.HOMEPOK;
@@ -482,6 +494,7 @@
 				2A5CF3271CC110E000039F01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A5CF3281CC110E000039F01 /* Build configuration list for PBXNativeTarget "HOMEPOKTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				2A5CF32A1CC110E000039F01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A5CF32B1CC110E000039F01 /* Build configuration list for PBXNativeTarget "HOMEPOKUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				2A5CF32D1CC110E000039F01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
