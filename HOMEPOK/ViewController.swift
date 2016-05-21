@@ -26,7 +26,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		// Do any additional setup after loading the view, typically from a nib.
 		self.textFieldTwoLetters.delegate = self
 		textFieldTwoLetters.becomeFirstResponder()
-		labelTopDescription.text = "Введіть перші дві літери номера"
 	}
 	
 	func textFieldShouldReturn(textField: UITextField) -> Bool {
