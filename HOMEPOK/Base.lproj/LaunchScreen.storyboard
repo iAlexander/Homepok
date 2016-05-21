@@ -35,7 +35,7 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Enter the first two letters of the plate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bTG-1q-cF3">
-                                        <rect key="frame" x="8" y="134.5" width="584" height="20.5"/>
+                                        <rect key="frame" x="8" y="134" width="584" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -148,8 +148,8 @@
                                 <exclude reference="F0c-QK-OR4"/>
                                 <exclude reference="KFZ-th-z3q"/>
                                 <exclude reference="bu0-2f-hEq"/>
-                                <exclude reference="ES3-XH-VAG"/>
                                 <exclude reference="4qA-RX-x6n"/>
+                                <exclude reference="ES3-XH-VAG"/>
                                 <exclude reference="qem-b1-uLF"/>
                             </mask>
                         </variation>
@@ -160,14 +160,14 @@
                                 <include reference="bq8-dF-08F"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="P8C-ih-3gO"/>
-                                <exclude reference="tJ0-T9-Y5D"/>
                                 <exclude reference="GJs-je-HFR"/>
                                 <exclude reference="L3O-ox-seO"/>
-                                <exclude reference="zAx-WN-2K8"/>
+                                <exclude reference="P8C-ih-3gO"/>
+                                <exclude reference="tJ0-T9-Y5D"/>
                                 <include reference="KFZ-th-z3q"/>
-                                <include reference="qem-b1-uLF"/>
+                                <exclude reference="zAx-WN-2K8"/>
                                 <exclude reference="eF1-ja-cec"/>
+                                <include reference="qem-b1-uLF"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=regular">
@@ -177,16 +177,16 @@
                             </mask>
                             <mask key="constraints">
                                 <include reference="AZr-aU-VXr"/>
-                                <exclude reference="P8C-ih-3gO"/>
                                 <exclude reference="L3O-ox-seO"/>
+                                <exclude reference="P8C-ih-3gO"/>
                                 <exclude reference="0tN-mz-KnP"/>
                                 <exclude reference="7pE-3k-mwq"/>
-                                <exclude reference="mDn-9A-Qc3"/>
-                                <exclude reference="zAx-WN-2K8"/>
                                 <exclude reference="F0c-QK-OR4"/>
                                 <include reference="bu0-2f-hEq"/>
-                                <include reference="ES3-XH-VAG"/>
+                                <exclude reference="mDn-9A-Qc3"/>
+                                <exclude reference="zAx-WN-2K8"/>
                                 <include reference="4qA-RX-x6n"/>
+                                <include reference="ES3-XH-VAG"/>
                                 <exclude reference="eF1-ja-cec"/>
                             </mask>
                         </variation>
