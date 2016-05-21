@@ -13,6 +13,7 @@
 		2A5CF30B1CC110E000039F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */; };
 		2A5CF3161CC110E000039F01 /* HOMEPOKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3151CC110E000039F01 /* HOMEPOKTests.swift */; };
 		2A5CF3211CC110E000039F01 /* HOMEPOKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3201CC110E000039F01 /* HOMEPOKUITests.swift */; };
+		2AC15F671CF08D2900329F98 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AC15F661CF08D2900329F98 /* GoogleService-Info.plist */; };
 		2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		2A5CF31C1CC110E000039F01 /* HOMEPOKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOMEPOKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5CF3201CC110E000039F01 /* HOMEPOKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOMEPOKUITests.swift; sourceTree = "<group>"; };
 		2A5CF3221CC110E000039F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC15F661CF08D2900329F98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2AE3EDAC1CC61E6900AFDB4D /* HOMEPOK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HOMEPOK.entitlements; sourceTree = "<group>"; };
 		2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 				2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */,
 				2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */,
 				2A5CF30C1CC110E000039F01 /* Info.plist */,
+				2AC15F661CF08D2900329F98 /* GoogleService-Info.plist */,
 			);
 			path = HOMEPOK;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5CF30B1CC110E000039F01 /* LaunchScreen.storyboard in Resources */,
+				2AC15F671CF08D2900329F98 /* GoogleService-Info.plist in Resources */,
 				2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */,
 				2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */,
 			);
