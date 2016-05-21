@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>01</key>
+	<string>Автономна Республіка Крим</string>
+	<key>02</key>
+	<string>Вінницька область</string>
+	<key>03</key>
+	<string>Волинська область</string>
+	<key>04</key>
+	<string>Дніпропетровська область</string>
+	<key>05</key>
+	<string>Донецька область</string>
+	<key>06</key>
+	<string>Житомирська область</string>
+	<key>07</key>
+	<string>Закарпатська область</string>
+	<key>08</key>
+	<string>Запорізька область</string>
+	<key>09</key>
+	<string>Івано-Франківська область</string>
+	<key>10</key>
+	<string>Київська область</string>
+	<key>11</key>
+	<string>Місто Київ</string>
+	<key>12</key>
+	<string>Кіровоградська область</string>
+	<key>13</key>
+	<string>Луганська область</string>
+	<key>14</key>
+	<string>Львівська область</string>
+	<key>15</key>
+	<string>Миколаївська область</string>
+	<key>16</key>
+	<string>Одеська область</string>
+	<key>17</key>
+	<string>Полтавська область</string>
+	<key>18</key>
+	<string>Рівненська область</string>
+	<key>19</key>
+	<string>Сумська область</string>
+	<key>20</key>
+	<string>Тернопільська область</string>
+	<key>21</key>
+	<string>Харківська область</string>
+	<key>22</key>
+	<string>Херсонська область</string>
+	<key>23</key>
+	<string>Хмельницька область</string>
+	<key>24</key>
+	<string>Черкаська область</string>
+	<key>25</key>
+	<string>Чернігівська область</string>
+	<key>26</key>
+	<string>Чернівецька область</string>
+	<key>27</key>
+	<string>Місто Севастополь</string>
+	<key>28</key>
+	<string>Загальнодержавна серія</string>
+	<key>29</key>
+	<string>Такого автомобільного номера не існує</string>
+	<key>30</key>
+	<string>Серія</string>
+	<key>31</key>
+	<string>Загальнодержавна серія номерних знаків для держслужбовців.</string>
+	<key>32</key>
+	<string>З 2006 року припинено видачу номерів серії ІІ.</string>
+	<key>33</key>
+	<string>Ви помилково ввели &quot;</string>
+	<key>34</key>
+	<string>Нажаль такого номера не існує. Гляньте навкруги, та спробуйте ввести перші літери з номера реального автомобіля що поруч!</string>
+	<key>35</key>
+	<string>Серії номерів:</string>
+</dict>
+</plist>

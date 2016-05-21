@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>01</key>
+	<string>Автономная Республика Крым</string>
+	<key>02</key>
+	<string>Винницкая область</string>
+	<key>03</key>
+	<string>Волынская область</string>
+	<key>04</key>
+	<string>Днепропетровская область</string>
+	<key>05</key>
+	<string>Донецкая область</string>
+	<key>06</key>
+	<string>Житомирская область</string>
+	<key>07</key>
+	<string>Закарпатская область</string>
+	<key>08</key>
+	<string>Запорожская область</string>
+	<key>09</key>
+	<string>Ивано-Франковская область</string>
+	<key>10</key>
+	<string>Киевская область</string>
+	<key>11</key>
+	<string>Город Киев</string>
+	<key>12</key>
+	<string>Кировоградская область</string>
+	<key>13</key>
+	<string>Луганская область</string>
+	<key>14</key>
+	<string>Львовская область</string>
+	<key>15</key>
+	<string>Николаевская область</string>
+	<key>16</key>
+	<string>Одесская область</string>
+	<key>17</key>
+	<string>Полтавская область</string>
+	<key>18</key>
+	<string>Ровненская область</string>
+	<key>19</key>
+	<string>Сумская область</string>
+	<key>20</key>
+	<string>Тернопольская область</string>
+	<key>21</key>
+	<string>Харьковская область</string>
+	<key>22</key>
+	<string>Херсонская область</string>
+	<key>23</key>
+	<string>Хмельницкая область</string>
+	<key>24</key>
+	<string>Черкасская область</string>
+	<key>25</key>
+	<string>Черниговская область</string>
+	<key>26</key>
+	<string>Черновицкая область</string>
+	<key>27</key>
+	<string>Город Севастополь</string>
+	<key>28</key>
+	<string>Общегосударственная серия</string>
+	<key>29</key>
+	<string>Такого автомобильного номера нет</string>
+	<key>30</key>
+	<string>Серия</string>
+	<key>31</key>
+	<string>Специальная серия номерных знаков для гос. служащих.</string>
+	<key>32</key>
+	<string>С 2006 года прекращена выдача номеров серии ІІ.</string>
+	<key>33</key>
+	<string>Вы ошибочно ввели &quot;</string>
+	<key>34</key>
+	<string>К сожалению такого номера не существует. Посмотрите внимательнее на номер, и попробуйте ввести первые буквы без опечаток.</string>
+	<key>35</key>
+	<string>Серии номеров:</string>
+</dict>
+</plist>

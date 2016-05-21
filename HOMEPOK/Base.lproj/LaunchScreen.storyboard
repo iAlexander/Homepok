@@ -22,7 +22,7 @@
                             <view contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="jcu-MW-bsj">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="165"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="HOMEPOK.COM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGe-LZ-Cav">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="HOMEPOK.COM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGe-LZ-Cav" propertyAccessControl="localizable">
                                         <rect key="frame" x="8" y="30" width="584" height="24"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                         <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -34,8 +34,8 @@
                                             <rect key="frame" x="8" y="30" width="784" height="24"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Enter the first two letters of the plate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bTG-1q-cF3">
-                                        <rect key="frame" x="8" y="134" width="584" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Developed by Alexander Iashchuk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bTG-1q-cF3" propertyAccessControl="localizable">
+                                        <rect key="frame" x="8" y="134" width="584" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -47,7 +47,7 @@
                                         </variation>
                                     </label>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="platePreRendered" translatesAutoresizingMaskIntoConstraints="NO" id="3J3-f2-Qkt">
-                                        <rect key="frame" x="143.5" y="64" width="313" height="60.5"/>
+                                        <rect key="frame" x="145" y="64" width="310" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="3J3-f2-Qkt" secondAttribute="height" multiplier="31:6" id="Esh-Wj-guY"/>
                                         </constraints>
@@ -95,7 +95,7 @@
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="coatOfArms28" translatesAutoresizingMaskIntoConstraints="NO" id="I5F-a9-n6c">
                                         <rect key="frame" x="0.0" y="0.0" width="276" height="160"/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="coatOfArms11" translatesAutoresizingMaskIntoConstraints="NO" id="eyF-BH-jI1">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="coatOfArms27" translatesAutoresizingMaskIntoConstraints="NO" id="eyF-BH-jI1">
                                         <rect key="frame" x="284" y="0.0" width="276" height="160"/>
                                     </imageView>
                                 </subviews>
@@ -198,7 +198,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="coatOfArms11" width="122" height="160"/>
+        <image name="coatOfArms27" width="133" height="160"/>
         <image name="coatOfArms28" width="116" height="160"/>
         <image name="mapUkraine28" width="302" height="203"/>
         <image name="platePreRendered" width="356" height="70"/>

@@ -214,119 +214,119 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		case 1:
 			imageMapUkraine.image = UIImage(named: "mapUkraine01")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms01")
-			result = "Автономна Республіка Крим"
+			result = localizedTextOutput("01")
 		case 2:
 			imageMapUkraine.image = UIImage(named: "mapUkraine02")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms02")
-			result = "Вінницька область"
+			result = localizedTextOutput("02")
 		case 3:
 			imageMapUkraine.image = UIImage(named: "mapUkraine03")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms03")
-			result = "Волинська область"
+			result = localizedTextOutput("03")
 		case 4:
 			imageMapUkraine.image = UIImage(named: "mapUkraine04")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms04")
-			result = "Дніпропетровська область"
+			result = localizedTextOutput("04")
 		case 5:
 			imageMapUkraine.image = UIImage(named: "mapUkraine05")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms05")
-			result = "Донецька область"
+			result = localizedTextOutput("05")
 		case 6:
 			imageMapUkraine.image = UIImage(named: "mapUkraine06")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms06")
-			result = "Житомирська область"
+			result = localizedTextOutput("06")
 		case 7:
 			imageMapUkraine.image = UIImage(named: "mapUkraine07")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms07")
-			result = "Закарпатська область"
+			result = localizedTextOutput("07")
 		case 8:
 			imageMapUkraine.image = UIImage(named: "mapUkraine08")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms08")
-			result = "Запорізька область"
+			result = localizedTextOutput("08")
 		case 9:
 			imageMapUkraine.image = UIImage(named: "mapUkraine09")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms09")
-			result = "Івано-Франківська область"
+			result = localizedTextOutput("09")
 		case 10:
 			imageMapUkraine.image = UIImage(named: "mapUkraine10")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms10")
-			result = "Київська область"
+			result = localizedTextOutput("10")
 		case 11:
 			imageMapUkraine.image = UIImage(named: "mapUkraine11")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms11")
-			result = "Місто Київ"
+			result = localizedTextOutput("11")
 		case 12:
 			imageMapUkraine.image = UIImage(named: "mapUkraine12")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms12")
-			result = "Кіровоградська область"
+			result = localizedTextOutput("12")
 		case 13:
 			imageMapUkraine.image = UIImage(named: "mapUkraine13")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms13")
-			result = "Луганська область"
+			result = localizedTextOutput("13")
 		case 14:
 			imageMapUkraine.image = UIImage(named: "mapUkraine14")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms14")
-			result = "Львівська область"
+			result = localizedTextOutput("14")
 		case 15:
 			imageMapUkraine.image = UIImage(named: "mapUkraine15")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms15")
-			result = "Миколаївська область"
+			result = localizedTextOutput("15")
 		case 16:
 			imageMapUkraine.image = UIImage(named: "mapUkraine16")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms16")
-			result = "Одеська область"
+			result = localizedTextOutput("16")
 		case 17:
 			imageMapUkraine.image = UIImage(named: "mapUkraine17")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms17")
-			result = "Полтавська область"
+			result = localizedTextOutput("17")
 		case 18:
 			imageMapUkraine.image = UIImage(named: "mapUkraine18")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms18")
-			result = "Рівненська область"
+			result = localizedTextOutput("18")
 		case 19:
 			imageMapUkraine.image = UIImage(named: "mapUkraine19")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms19")
-			result = "Сумська область"
+			result = localizedTextOutput("19")
 		case 20:
 			imageMapUkraine.image = UIImage(named: "mapUkraine20")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms20")
-			result = "Тернопільська область"
+			result = localizedTextOutput("20")
 		case 21:
 			imageMapUkraine.image = UIImage(named: "mapUkraine21")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms21")
-			result = "Харківська область"
+			result = localizedTextOutput("21")
 		case 22:
 			imageMapUkraine.image = UIImage(named: "mapUkraine22")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms22")
-			result = "Херсонська область"
+			result = localizedTextOutput("22")
 		case 23:
 			imageMapUkraine.image = UIImage(named: "mapUkraine23")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms23")
-			result = "Хмельницька область"
+			result = localizedTextOutput("23")
 		case 24:
 			imageMapUkraine.image = UIImage(named: "mapUkraine24")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms24")
-			result = "Черкаська область"
+			result = localizedTextOutput("24")
 		case 25:
 			imageMapUkraine.image = UIImage(named: "mapUkraine25")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms25")
-			result = "Чернігівська область"
+			result = localizedTextOutput("25")
 		case 26:
 			imageMapUkraine.image = UIImage(named: "mapUkraine26")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms26")
-			result = "Чернівецька область"
+			result = localizedTextOutput("26")
 		case 27:
 			imageMapUkraine.image = UIImage(named: "mapUkraine27")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms27")
-			result = "Місто Севастополь"
+			result = localizedTextOutput("27")
 		case 28:
 			imageMapUkraine.image = UIImage(named: "mapUkraine28")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms28")
-			result = "Загальнодержавна серія"
+			result = localizedTextOutput("28")
 		default:
 			imageMapUkraine.image = UIImage(named: "mapUkraine28")
 			imageCoatOfArms.image = UIImage(named: "coatOfArms29")
-			result = "Такого автомобільного номера не існує"
+			result = localizedTextOutput("29")
 		}
 		return result
 	}
@@ -334,15 +334,22 @@ class ViewController: UIViewController, UITextFieldDelegate {
 	func descriptionOutput (region: String, name: String, index: Int) {
 		switch index {
 		case 28:
-			labelTopDescription.text = "Серія " + region + " - " + name
-			labelBottomDescription.text = "Загальнодержавна серія номерних знаків для держслужбовців." + "\n\n" + "З 2006 року припинено видачу номерів серії ІІ."
+			labelTopDescription.text = localizedTextOutput("30") + " " + region + " - " + name
+			labelBottomDescription.text = localizedTextOutput("31") + "\n\n" + localizedTextOutput("32")
 		case 29:
 			labelTopDescription.text = name
-			labelBottomDescription.text = "Ви помилково ввели \"" + region + "\"... " + "Нажаль такого номера не існує. Гляньте навкруги, та спробуйте ввести перші літери з номера реального автомобіля що поруч!"
+			labelBottomDescription.text = localizedTextOutput("33") + region + "\"...\n" + localizedTextOutput("34")
 		default:
-			labelTopDescription.text = "Серія " + region + " - " + name
-			labelBottomDescription.text = name + "\n\n" + "Серії номерів: " + seriesOne + ", " + seriesTwo
+			labelTopDescription.text = localizedTextOutput("30") + " " + region + " - " + name
+			labelBottomDescription.text = name + "\n\n" + localizedTextOutput("35") + " " + seriesOne + ", " + seriesTwo
 		}
+	}
+	
+	func localizedTextOutput (key: String) -> String {
+		let path = NSBundle.mainBundle().pathForResource("LocalizedStrings", ofType: "plist")
+		let localizedDict = NSDictionary(contentsOfFile: path!) as? [String: String]
+		let result = localizedDict![key]! as String
+		return result
 	}
 
 	override func didReceiveMemoryWarning() {

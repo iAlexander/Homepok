@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A4BBD101CF0D16C00AF04EF /* LocalizedStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A4BBD121CF0D16C00AF04EF /* LocalizedStrings.plist */; };
+		2A4BBD181CF0F2E700AF04EF /* HOMEPOK.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 2A4BBD171CF0F2E700AF04EF /* HOMEPOK.entitlements */; };
 		2A5CF3011CC110E000039F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3001CC110E000039F01 /* AppDelegate.swift */; };
 		2A5CF3031CC110E000039F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3021CC110E000039F01 /* ViewController.swift */; };
 		2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CF3041CC110E000039F01 /* Main.storyboard */; };
@@ -39,6 +41,10 @@
 
 /* Begin PBXFileReference section */
 		06F8776603C81B027873C1E6 /* Pods-HOMEPOKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOMEPOKUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOMEPOKUITests/Pods-HOMEPOKUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A4BBD111CF0D16C00AF04EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
+		2A4BBD131CF0D16F00AF04EF /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = uk; path = uk.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
+		2A4BBD141CF0D17000AF04EF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
+		2A4BBD171CF0F2E700AF04EF /* HOMEPOK.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HOMEPOK.entitlements; sourceTree = "<group>"; };
 		2A5CF2FD1CC110E000039F01 /* HOMEPOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOMEPOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5CF3001CC110E000039F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A5CF3021CC110E000039F01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,8 +57,9 @@
 		2A5CF31C1CC110E000039F01 /* HOMEPOKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOMEPOKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5CF3201CC110E000039F01 /* HOMEPOKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOMEPOKUITests.swift; sourceTree = "<group>"; };
 		2A5CF3221CC110E000039F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A74042A1CF0C55B0006D422 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		2A74042C1CF0C5660006D422 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		2AC15F661CF08D2900329F98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2AE3EDAC1CC61E6900AFDB4D /* HOMEPOK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HOMEPOK.entitlements; sourceTree = "<group>"; };
 		2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37CA20372F5FF1E58E9369E3 /* Pods-HOMEPOKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOMEPOKUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOMEPOKUITests/Pods-HOMEPOKUITests.release.xcconfig"; sourceTree = "<group>"; };
 		72F49B157D49F773ED9A5082 /* Pods_HOMEPOKUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HOMEPOKUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,12 +124,13 @@
 		2A5CF2FF1CC110E000039F01 /* HOMEPOK */ = {
 			isa = PBXGroup;
 			children = (
-				2AE3EDAC1CC61E6900AFDB4D /* HOMEPOK.entitlements */,
+				2A4BBD171CF0F2E700AF04EF /* HOMEPOK.entitlements */,
 				2A5CF3001CC110E000039F01 /* AppDelegate.swift */,
 				2A5CF3021CC110E000039F01 /* ViewController.swift */,
 				2A5CF3041CC110E000039F01 /* Main.storyboard */,
 				2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */,
 				2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */,
+				2A4BBD121CF0D16C00AF04EF /* LocalizedStrings.plist */,
 				2A5CF30C1CC110E000039F01 /* Info.plist */,
 				2AC15F661CF08D2900329F98 /* GoogleService-Info.plist */,
 			);
@@ -249,10 +257,10 @@
 						DevelopmentTeam = 3NL9BUS2QV;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.iCloud = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -273,6 +281,8 @@
 			knownRegions = (
 				en,
 				Base,
+				uk,
+				ru,
 			);
 			mainGroup = 2A5CF2F41CC110E000039F01;
 			productRefGroup = 2A5CF2FE1CC110E000039F01 /* Products */;
@@ -295,6 +305,8 @@
 				2AC15F671CF08D2900329F98 /* GoogleService-Info.plist in Resources */,
 				2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */,
 				2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */,
+				2A4BBD101CF0D16C00AF04EF /* LocalizedStrings.plist in Resources */,
+				2A4BBD181CF0F2E700AF04EF /* HOMEPOK.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,10 +491,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2A4BBD121CF0D16C00AF04EF /* LocalizedStrings.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A4BBD111CF0D16C00AF04EF /* Base */,
+				2A4BBD131CF0D16F00AF04EF /* uk */,
+				2A4BBD141CF0D17000AF04EF /* ru */,
+			);
+			name = LocalizedStrings.plist;
+			sourceTree = "<group>";
+		};
 		2A5CF3041CC110E000039F01 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2A5CF3051CC110E000039F01 /* Base */,
+				2A74042A1CF0C55B0006D422 /* uk */,
+				2A74042C1CF0C5660006D422 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

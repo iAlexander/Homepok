@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>01</key>
+	<string>Autonomous Republic of Crimea</string>
+	<key>02</key>
+	<string>Vinnytsia oblast</string>
+	<key>03</key>
+	<string>Volyn oblast</string>
+	<key>04</key>
+	<string>Dnipropetrovsk oblast</string>
+	<key>05</key>
+	<string>Donetsk oblast</string>
+	<key>06</key>
+	<string>Zhytomyr oblast</string>
+	<key>07</key>
+	<string>Zakarpattya oblast</string>
+	<key>08</key>
+	<string>Zaporizhzhya oblast</string>
+	<key>09</key>
+	<string>Ivano-Frankivsk oblast</string>
+	<key>10</key>
+	<string>Kyiv oblast</string>
+	<key>11</key>
+	<string>Kyiv city</string>
+	<key>12</key>
+	<string>Kirovohrad oblast</string>
+	<key>13</key>
+	<string>Luhansk oblast</string>
+	<key>14</key>
+	<string>Lviv oblast</string>
+	<key>15</key>
+	<string>Mykolaiv oblast</string>
+	<key>16</key>
+	<string>Odesa oblast</string>
+	<key>17</key>
+	<string>Poltava oblast</string>
+	<key>18</key>
+	<string>Rivne oblast</string>
+	<key>19</key>
+	<string>Sumy oblast</string>
+	<key>20</key>
+	<string>Ternopil oblast</string>
+	<key>21</key>
+	<string>Kharkiv oblast</string>
+	<key>22</key>
+	<string>Kherson oblast</string>
+	<key>23</key>
+	<string>Khmelnytskyi oblast</string>
+	<key>24</key>
+	<string>Cherkasy oblast</string>
+	<key>25</key>
+	<string>Chernihiv oblast</string>
+	<key>26</key>
+	<string>Chernivtsi oblast</string>
+	<key>27</key>
+	<string>Sevastopol city</string>
+	<key>28</key>
+	<string>Special state series</string>
+	<key>29</key>
+	<string>This letter combination does not exist</string>
+	<key>30</key>
+	<string>Series</string>
+	<key>31</key>
+	<string>Special series that were issued for government employees only.</string>
+	<key>32</key>
+	<string>&quot;II&quot; series have been discontinued since 2006.</string>
+	<key>33</key>
+	<string>Wrong input &quot;</string>
+	<key>34</key>
+	<string>Ooops... Such a region index does not exist. Double check the first two letters of the plate, and type without mistakes.</string>
+	<key>35</key>
+	<string>Plates series:</string>
+</dict>
+</plist>
