@@ -1,6 +1,0 @@
-framework module Pods_HOMEPOKUITests {
-  umbrella header "Pods-HOMEPOKUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
