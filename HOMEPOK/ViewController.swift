@@ -8,6 +8,7 @@
 
 import UIKit
 import Foundation
+import CloudKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
@@ -26,6 +27,33 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		// Do any additional setup after loading the view, typically from a nib.
 		self.textFieldTwoLetters.delegate = self
 		textFieldTwoLetters.becomeFirstResponder()
+        
+//        let container = CKContainer.defaultContainer()
+//        let publicDatabase = container.publicCloudDatabase
+//        let appStatsRecordID = CKRecordID(recordName: "LaunchStats")
+//        //        let stats = CKRecord(recordType: "AppGlobalStats")
+//        publicDatabase.fetchRecordWithID(appStatsRecordID) { (appStats, error) in
+//            if ((error) != nil) {
+//                // Error handling for failed fetch from public database
+//                print("ERROR!!!")
+//            } else {
+//                print(appStats)
+//            }
+//        }
+//        var appStats = CKRecord(recordType: "AppGlobalStats", recordID: appStatsRecordID)
+//        appStats["AppLaunch"] = 1
+//        appStats["PerformedCheck"] = 1
+//        var launchesInt = stats["AppLaunch"] as? Int
+//        launchesInt = launchesInt! + 1
+//        stats["AppLaunch"] = launchesInt
+//        publicDatabase.saveRecord(stats) { (AppGlobalStats, error) in
+//            if (error == nil) {
+//                NSLog("AppStats publicDatabase: Successfully saved record!")
+//            } else {
+//                NSLog("AppStats publicDatabase: ERROR!")
+//            }
+//        }
+        
 	}
 	
 	func textFieldShouldReturn(textField: UITextField) -> Bool {
