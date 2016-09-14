@@ -56,13 +56,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
 	}
 	
-	func textFieldShouldReturn(textField: UITextField) -> Bool {
+	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 		checkTheRegion(textFieldTwoLetters.text!)
 		textFieldTwoLetters.resignFirstResponder()
 		return true
 	}
 	
-	func checkTheRegion (input: String) {
+	func checkTheRegion (_ input: String) {
 		if input == "" {
 			return
 		}
@@ -75,7 +75,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		descriptionOutput(twoLetters, name: region, index: regionIndex)
 	}
 	
-	func transformLetters (letters: String) -> String {
+	func transformLetters (_ letters: String) -> String {
 		let firstLetter = String(letters.characters.prefix(1))
 		let secondLetter = String(letters.characters.suffix(1))
 		var result = transformLetterToLatin(firstLetter)
@@ -83,7 +83,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		return result
 	}
 	
-	func transformLetterToLatin (letter: String) -> String {
+	func transformLetterToLatin (_ letter: String) -> String {
 		var result = letter
 		switch letter {
 		case "A", "a", "А", "а":
@@ -111,12 +111,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		case "X", "Х", "x", "х":
 			result = "X"
 		default:
-			result = letter.uppercaseString
+			result = letter.uppercased()
 		}
 		return result
 	}
 	
-	func regionsIndexChecker (letters: String) -> Int {
+	func regionsIndexChecker (_ letters: String) -> Int {
 		var result = 29
 		switch letters {
 		case "AK", "KK":
@@ -236,7 +236,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		return result
 	}
 	
-	func regionsChecker (input: Int) -> String {
+	func regionsChecker (_ input: Int) -> String {
 		var result = ""
 		switch input {
 		case 1:
@@ -359,7 +359,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		return result
 	}
 
-	func descriptionOutput (region: String, name: String, index: Int) {
+	func descriptionOutput (_ region: String, name: String, index: Int) {
 		switch index {
 		case 28:
 			labelTopDescription.text = localizedTextOutput("30") + " " + region + " - " + name
@@ -373,8 +373,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		}
 	}
 	
-	func localizedTextOutput (key: String) -> String {
-		let path = NSBundle.mainBundle().pathForResource("LocalizedStrings", ofType: "plist")
+	func localizedTextOutput (_ key: String) -> String {
+		let path = Bundle.main.path(forResource: "LocalizedStrings", ofType: "plist")
 		let localizedDict = NSDictionary(contentsOfFile: path!) as? [String: String]
 		let result = localizedDict![key]! as String
 		return result
