@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="Fri-U9-Kpd">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A320" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Fri-U9-Kpd">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,47 +17,32 @@
                         <viewControllerLayoutGuide type="bottom" id="xaj-XZ-sWP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Lir-OY-S6y">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="jcu-MW-bsj">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="165"/>
+                            <view contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jcu-MW-bsj">
+                                <frame key="frameInset" width="600" height="165"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="HOMEPOK.COM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGe-LZ-Cav" propertyAccessControl="localizable">
-                                        <rect key="frame" x="8" y="30" width="584" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" misplaced="YES" text="HOMEPOK.COM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGe-LZ-Cav" propertyAccessControl="localizable">
+                                        <frame key="frameInset" minX="8" minY="30" width="584" height="24"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                        <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" ambiguous="YES">
-                                            <rect key="frame" x="8" y="30" width="384" height="24"/>
-                                        </variation>
-                                        <variation key="heightClass=compact-widthClass=regular" ambiguous="YES">
-                                            <rect key="frame" x="8" y="30" width="784" height="24"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Developed by Alexander Iashchuk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bTG-1q-cF3" propertyAccessControl="localizable">
-                                        <rect key="frame" x="8" y="134" width="584" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" misplaced="YES" text="Developed by Alexander Iashchuk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bTG-1q-cF3" propertyAccessControl="localizable">
+                                        <frame key="frameInset" minX="8" minY="134" width="584" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" ambiguous="YES">
-                                            <rect key="frame" x="8" y="134" width="384" height="21"/>
-                                        </variation>
-                                        <variation key="heightClass=compact-widthClass=regular" ambiguous="YES">
-                                            <rect key="frame" x="8" y="134" width="784" height="21"/>
-                                        </variation>
                                     </label>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="platePreRendered" translatesAutoresizingMaskIntoConstraints="NO" id="3J3-f2-Qkt">
-                                        <rect key="frame" x="145" y="64" width="310" height="60"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalHuggingPriority="251" misplaced="YES" image="platePreRendered" translatesAutoresizingMaskIntoConstraints="NO" id="3J3-f2-Qkt">
+                                        <frame key="frameInset" minX="145" minY="64" width="310" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="3J3-f2-Qkt" secondAttribute="height" multiplier="31:6" id="Esh-Wj-guY"/>
                                         </constraints>
-                                        <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="45" y="64" width="310" height="60"/>
-                                        </variation>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.35686274509999999" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.35686274509999999" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="3J3-f2-Qkt" firstAttribute="top" secondItem="bGe-LZ-Cav" secondAttribute="bottom" constant="10" id="3OA-qu-fTm"/>
                                     <constraint firstItem="bGe-LZ-Cav" firstAttribute="trailing" secondItem="jcu-MW-bsj" secondAttribute="trailingMargin" id="3ax-Cz-3we"/>
@@ -71,8 +57,8 @@
                                     <constraint firstItem="bTG-1q-cF3" firstAttribute="leading" secondItem="jcu-MW-bsj" secondAttribute="leadingMargin" id="wCI-qP-5tf"/>
                                 </constraints>
                             </view>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="mapUkraine28" translatesAutoresizingMaskIntoConstraints="NO" id="ede-qc-V1s">
-                                <rect key="frame" x="20" y="175" width="560" height="235"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" misplaced="YES" image="mapUkraine28" translatesAutoresizingMaskIntoConstraints="NO" id="ede-qc-V1s">
+                                <frame key="frameInset" minX="20" minY="175" width="560" height="235"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="415" id="E5N-Ub-Z9a">
                                         <variation key="heightClass=compact-widthClass=regular" constant="380"/>
@@ -89,15 +75,11 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bq8-dF-08F">
-                                <rect key="frame" x="20" y="420" width="560" height="160"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bq8-dF-08F">
+                                <frame key="frameInset" minX="20" minY="420" width="343" height="160"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="coatOfArms28" translatesAutoresizingMaskIntoConstraints="NO" id="I5F-a9-n6c">
-                                        <rect key="frame" x="0.0" y="0.0" width="276" height="160"/>
-                                    </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="coatOfArms27" translatesAutoresizingMaskIntoConstraints="NO" id="eyF-BH-jI1">
-                                        <rect key="frame" x="284" y="0.0" width="276" height="160"/>
-                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="coatOfArms28" translatesAutoresizingMaskIntoConstraints="NO" id="I5F-a9-n6c"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="coatOfArms27" translatesAutoresizingMaskIntoConstraints="NO" id="eyF-BH-jI1"/>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="I5F-a9-n6c" firstAttribute="centerY" secondItem="bq8-dF-08F" secondAttribute="centerY" id="DLJ-vo-rxQ"/>
@@ -114,7 +96,7 @@
                                 </variation>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bq8-dF-08F" firstAttribute="centerX" secondItem="Lir-OY-S6y" secondAttribute="centerX" id="0tN-mz-KnP"/>
                             <constraint firstItem="bq8-dF-08F" firstAttribute="leading" secondItem="Lir-OY-S6y" secondAttribute="leadingMargin" id="1ZN-3e-pQy"/>
