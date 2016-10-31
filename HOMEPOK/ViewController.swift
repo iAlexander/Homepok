@@ -353,5 +353,4 @@ class ViewController: UIViewController, UITextFieldDelegate {
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 	}
-    
 }
