@@ -14,6 +14,7 @@
 		2A5CF30B1CC110E000039F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */; };
 		2A5CF3161CC110E000039F01 /* HOMEPOKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3151CC110E000039F01 /* HOMEPOKTests.swift */; };
 		2A5CF3211CC110E000039F01 /* HOMEPOKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3201CC110E000039F01 /* HOMEPOKUITests.swift */; };
+		2AAEAAD11DC7DABC0038BE64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AAEAAD01DC7DABC0038BE64 /* GoogleService-Info.plist */; };
 		2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		2A5CF3221CC110E000039F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A74042A1CF0C55B0006D422 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
 		2A74042C1CF0C5660006D422 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		2AAEAAD01DC7DABC0038BE64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */,
 				2A4BBD121CF0D16C00AF04EF /* LocalizedStrings.plist */,
 				2A5CF30C1CC110E000039F01 /* Info.plist */,
+				2AAEAAD01DC7DABC0038BE64 /* GoogleService-Info.plist */,
 			);
 			path = HOMEPOK;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			files = (
 				2A5CF30B1CC110E000039F01 /* LaunchScreen.storyboard in Resources */,
 				2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */,
+				2AAEAAD11DC7DABC0038BE64 /* GoogleService-Info.plist in Resources */,
 				2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */,
 				2A4BBD101CF0D16C00AF04EF /* LocalizedStrings.plist in Resources */,
 			);
