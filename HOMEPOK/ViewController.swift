@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import FirebaseAnalytics
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
