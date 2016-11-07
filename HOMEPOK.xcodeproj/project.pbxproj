@@ -12,7 +12,7 @@
 		2A5CF3031CC110E000039F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3021CC110E000039F01 /* ViewController.swift */; };
 		2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CF3041CC110E000039F01 /* Main.storyboard */; };
 		2A5CF30B1CC110E000039F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */; };
-		2AAEAAD11DC7DABC0038BE64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AAEAAD01DC7DABC0038BE64 /* GoogleService-Info.plist */; };
+		2ABF67461DD0AEA5009E3735 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ABF67451DD0AEA5009E3735 /* GoogleService-Info.plist */; };
 		2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */; };
 		F8DA21A218AC99F6B58827B1 /* Pods_HOMEPOK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7755095A905D7A1829BA3F6E /* Pods_HOMEPOK.framework */; };
 /* End PBXBuildFile section */
@@ -29,7 +29,7 @@
 		2A5CF30C1CC110E000039F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A74042A1CF0C55B0006D422 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
 		2A74042C1CF0C5660006D422 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
-		2AAEAAD01DC7DABC0038BE64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2ABF67451DD0AEA5009E3735 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7755095A905D7A1829BA3F6E /* Pods_HOMEPOK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HOMEPOK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB73121EF8426F7E879F489 /* Pods-HOMEPOK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOMEPOK.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOMEPOK/Pods-HOMEPOK.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 				2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */,
 				2A4BBD121CF0D16C00AF04EF /* LocalizedStrings.plist */,
 				2A5CF30C1CC110E000039F01 /* Info.plist */,
-				2AAEAAD01DC7DABC0038BE64 /* GoogleService-Info.plist */,
+				2ABF67451DD0AEA5009E3735 /* GoogleService-Info.plist */,
 			);
 			path = HOMEPOK;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 			files = (
 				2A5CF30B1CC110E000039F01 /* LaunchScreen.storyboard in Resources */,
 				2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */,
-				2AAEAAD11DC7DABC0038BE64 /* GoogleService-Info.plist in Resources */,
+				2ABF67461DD0AEA5009E3735 /* GoogleService-Info.plist in Resources */,
 				2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */,
 				2A4BBD101CF0D16C00AF04EF /* LocalizedStrings.plist in Resources */,
 			);
@@ -224,7 +224,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
