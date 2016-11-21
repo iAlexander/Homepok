@@ -9,18 +9,22 @@
 import UIKit
 
 class TutorialController: UIViewController {
+    
+    @IBOutlet weak var tutorialImageView: UIImageView!
+    @IBOutlet weak var topTextLabel: UILabel!
+    @IBOutlet weak var bottomTextLabel: UILabel!
+    @IBOutlet weak var tutorialButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func nextButton(_ sender: Any) {
+    }
 
     /*
     // MARK: - Navigation
