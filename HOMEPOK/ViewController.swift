@@ -30,7 +30,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         launchCount = defaults.double(forKey: numberOfAppLaunchesKey)
         searchCount = defaults.double(forKey: numberOfAppLaunchesKey)
         self.textFieldTwoLetters.delegate = self
-        textFieldTwoLetters.becomeFirstResponder()
     }
     
     override func viewDidAppear(_ animated: Bool) {
