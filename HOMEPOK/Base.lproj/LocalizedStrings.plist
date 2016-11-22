@@ -72,5 +72,21 @@
 	<string>Ooops... Such a region index does not exist. Double check the first two letters of the plate, and type without mistakes.</string>
 	<key>35</key>
 	<string>Plates series:</string>
+	<key>t01</key>
+	<string>Hey, I guess that you&apos;re a beginner!</string>
+	<key>t02</key>
+	<string>So I propose you to pass a short tutorial…</string>
+	<key>t11</key>
+	<string>To check the vehicle license plate</string>
+	<key>t12</key>
+	<string>you need to tap the first two letters on it...</string>
+	<key>t21</key>
+	<string>Enter that letters from the keyboard</string>
+	<key>t22</key>
+	<string>and tap the &quot;Search&quot; button in the end…</string>
+	<key>t31</key>
+	<string>Congratulations, now you’re a pro!</string>
+	<key>t32</key>
+	<string>It’s the best time to start using the app</string>
 </dict>
 </plist>
