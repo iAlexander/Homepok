@@ -2,11 +2,14 @@
 /* Class = "UILabel"; text = "HOMEPOK.COM"; ObjectID = "ENJ-8s-whh"; */
 "ENJ-8s-whh.text" = "НОМЕРОК.УКР";
 
-/* Class = "UITextField"; placeholder = "AA"; ObjectID = "Ha1-4y-bjS"; */
-"Ha1-4y-bjS.placeholder" = "AA";
+/* Class = "UILabel"; text = "Enter the first two letters of the plate"; ObjectID = "lsx-8J-cby"; */
+"lsx-8J-cby.text" = "Введите две первые буквы номера";
 
 /* Class = "UILabel"; text = "Copyright © 2016 iashchuk.com"; ObjectID = "cMG-Bv-8EP"; */
 "cMG-Bv-8EP.text" = "Все права защищены © 2016 iashchuk.com";
 
-/* Class = "UILabel"; text = "Enter the first two letters of the plate"; ObjectID = "lsx-8J-cby"; */
-"lsx-8J-cby.text" = "Введите две первые буквы номера";
+/* Class = "UIButton"; normalTitle = "FINISH TUTORIAL"; ObjectID = "PX8-Ae-40u"; */
+"PX8-Ae-40u.normalTitle" = "ЗАКРЫТЬ ПОДСКАЗКИ";
+
+/* Class = "UIButton"; normalTitle = "NEXT ⇨"; ObjectID = "QS2-HA-7ac"; */
+"QS2-HA-7ac.normalTitle" = "ДАЛЬШЕ ⇨";

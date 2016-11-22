@@ -19,14 +19,30 @@ class ViewController: UIViewController, UITextFieldDelegate {
 	
 	var seriesOne: String = ""
 	var seriesTwo: String = ""
+    var launchCount: Double = 0
+    let numberOfLaunchesKey = "numberOfLaunches"
+    let defaults = UserDefaults.standard
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		self.textFieldTwoLetters.delegate = self
-		textFieldTwoLetters.becomeFirstResponder()
+        launchCount = defaults.double(forKey: numberOfLaunchesKey)
+        self.textFieldTwoLetters.delegate = self
+        textFieldTwoLetters.becomeFirstResponder()
 	}
+    
+    @IBAction func tutorialButton(_ sender: Any) {
+        goToTutorial()
+    }
+    
+    func goToTutorial() {
+        performSegue(withIdentifier: "tutorialSegue", sender: nil)
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 	
-	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+	public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 		checkTheRegion(textFieldTwoLetters.text!)
 		textFieldTwoLetters.resignFirstResponder()
 		return true
@@ -353,4 +369,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 	}
+    
+    @IBAction func unwindToMainView(segue: UIStoryboardSegue) {
+    }
 }

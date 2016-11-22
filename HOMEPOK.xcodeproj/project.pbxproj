@@ -20,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		07E8C322F63B2EB3828D3C78 /* Pods-HOMEPOK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOMEPOK.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOMEPOK/Pods-HOMEPOK.release.xcconfig"; sourceTree = "<group>"; };
+		2A1634991DE4D6BF00D75037 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		2A16349B1DE4D6C200D75037 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		2A4BBD111CF0D16C00AF04EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
 		2A4BBD131CF0D16F00AF04EF /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = uk; path = uk.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
 		2A4BBD141CF0D17000AF04EF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
@@ -30,8 +32,6 @@
 		2A5CF3051CC110E000039F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A5CF30A1CC110E000039F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A5CF30C1CC110E000039F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A74042A1CF0C55B0006D422 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
-		2A74042C1CF0C5660006D422 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		2ABF67451DD0AEA5009E3735 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3882C5AFA88E5F010F7024A1 /* Pods-HOMEPOK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOMEPOK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOMEPOK/Pods-HOMEPOK.debug.xcconfig"; sourceTree = "<group>"; };
@@ -260,8 +260,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				2A5CF3051CC110E000039F01 /* Base */,
-				2A74042A1CF0C55B0006D422 /* uk */,
-				2A74042C1CF0C5660006D422 /* ru */,
+				2A1634991DE4D6BF00D75037 /* uk */,
+				2A16349B1DE4D6C200D75037 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
