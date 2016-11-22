@@ -28,7 +28,21 @@ class ViewController: UIViewController, UITextFieldDelegate {
         launchCount = defaults.double(forKey: numberOfLaunchesKey)
         self.textFieldTwoLetters.delegate = self
         textFieldTwoLetters.becomeFirstResponder()
-	}
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if launchCount > 0 {
+            launchCount = launchCount + 1
+            defaults.set(launchCount, forKey: numberOfLaunchesKey)
+            print("Launch Count: \(launchCount)")
+        } else {
+            launchCount = launchCount + 1
+            defaults.set(launchCount, forKey: numberOfLaunchesKey)
+            print("Launch Count: \(launchCount)")
+            goToTutorial()
+        }
+    }
     
     @IBAction func tutorialButton(_ sender: Any) {
         goToTutorial()
