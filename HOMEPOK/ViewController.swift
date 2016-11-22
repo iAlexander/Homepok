@@ -21,14 +21,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
 	var seriesTwo: String = ""
     var launchCount: Double = 0
     var searchCount: Double = 0
-    let numberOfLaunchesKey = "numberOfAppLaunches"
+    let numberOfAppLaunchesKey = "numberOfAppLaunches"
     let numberOfSearchesKey = "numberOfSearches"
     let defaults = UserDefaults.standard
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-        launchCount = defaults.double(forKey: numberOfLaunchesKey)
-        searchCount = defaults.double(forKey: numberOfSearchesKey)
+        launchCount = defaults.double(forKey: numberOfAppLaunchesKey)
+        searchCount = defaults.double(forKey: numberOfAppLaunchesKey)
         self.textFieldTwoLetters.delegate = self
         textFieldTwoLetters.becomeFirstResponder()
     }
@@ -37,12 +37,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidAppear(animated)
         if launchCount > 0 {
             launchCount += 1
-            defaults.set(launchCount, forKey: numberOfLaunchesKey)
-            print("Launch Count: \(launchCount)")
+            defaults.set(launchCount, forKey: numberOfAppLaunchesKey)
+            print("App Launch Count: \(launchCount)")
+            textFieldTwoLetters.becomeFirstResponder()
         } else {
             launchCount += 1
-            defaults.set(launchCount, forKey: numberOfLaunchesKey)
-            print("Launch Count: \(launchCount)")
+            defaults.set(launchCount, forKey: numberOfAppLaunchesKey)
+            print("App Launch Count: \(launchCount)")
             goToTutorial()
         }
     }
@@ -68,7 +69,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 	func checkTheRegion (_ input: String) {
         searchCount += 1
         defaults.set(searchCount, forKey: numberOfSearchesKey)
-        print("Launch Count: \(searchCount)")
+        print("Search Count: \(searchCount)")
 		if input == "" {
 			return
 		}

@@ -18,25 +18,27 @@ class TutorialController: UIViewController {
     
     var tutorialSteps = 0
     var tutorialLaunchCount: Double = 0
-    let numberOfLaunchesKey = "numberOfTutorialLaunches"
+    let numberOfTutorialLaunchesKey = "numberOfTutorialLaunches"
     let defaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tutorialLaunchCount = defaults.double(forKey: numberOfLaunchesKey)
+        tutorialLaunchCount = defaults.double(forKey: numberOfTutorialLaunchesKey)
         finishButton.isHidden = true
         if tutorialLaunchCount == 0 {
             tutorialLaunchCount += 1
-            defaults.set(tutorialLaunchCount, forKey: numberOfLaunchesKey)
+            defaults.set(tutorialLaunchCount, forKey: numberOfTutorialLaunchesKey)
             topTextLabel.text = "Привіт, здогадуюсь що ви тут вперше!"
             bottomTextLabel.text = "Тож пропоную пройти коротке навчання"
+            print("Tutorial Launch Count: \(tutorialLaunchCount)")
         } else {
             tutorialLaunchCount += 1
-            defaults.set(tutorialLaunchCount, forKey: numberOfLaunchesKey)
+            defaults.set(tutorialLaunchCount, forKey: numberOfTutorialLaunchesKey)
             tutorialSteps += 1
             tutorialImageView.image = UIImage(named: "Tutorial1")
             topTextLabel.text = "Для того щоб перевірити номер"
             bottomTextLabel.text = "потрібно тапнути на перші дві літери"
+            print("Tutorial Launch Count: \(tutorialLaunchCount)")
         }
     }
     
