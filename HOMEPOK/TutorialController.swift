@@ -17,12 +17,31 @@ class TutorialController: UIViewController {
     @IBOutlet weak var finishButton: UIButton!
     
     var tutorialSteps = 0
+    var tutorialLaunchCount: Double = 0
+    let numberOfLaunchesKey = "numberOfTutorialLaunches"
+    let defaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        tutorialLaunchCount = defaults.double(forKey: numberOfLaunchesKey)
         finishButton.isHidden = true
-        topTextLabel.text = "Привіт, здогадуюсь що ви тут вперше!"
-        bottomTextLabel.text = "Тож пропоную пройти коротке навчання"
+        if tutorialLaunchCount == 0 {
+            tutorialLaunchCount += 1
+            defaults.set(tutorialLaunchCount, forKey: numberOfLaunchesKey)
+            topTextLabel.text = "Привіт, здогадуюсь що ви тут вперше!"
+            bottomTextLabel.text = "Тож пропоную пройти коротке навчання"
+        } else {
+            tutorialLaunchCount += 1
+            defaults.set(tutorialLaunchCount, forKey: numberOfLaunchesKey)
+            tutorialSteps += 1
+            tutorialImageView.image = UIImage(named: "Tutorial1")
+            topTextLabel.text = "Для того щоб перевірити номер"
+            bottomTextLabel.text = "потрібно тапнути на перші дві літери"
+        }
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidAppear(animated)
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,7 +61,7 @@ class TutorialController: UIViewController {
         } else if tutorialSteps == 3 {
             tutorialImageView.image = UIImage(named: "Tutorial3")
             topTextLabel.text = "Вітаємо, ви закінчили навчання!"
-            bottomTextLabel.text = "Тепер можете користуватись програмою"
+            bottomTextLabel.text = "Починайте користуватись програмою"
             tutorialButton.isHidden = true
             finishButton.isHidden = false
         }
