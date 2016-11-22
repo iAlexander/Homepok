@@ -79,6 +79,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		let regionIndex = regionsIndexChecker(twoLetters)
 		let region = regionsChecker(regionIndex)
 		descriptionOutput(twoLetters, name: region, index: regionIndex)
+        askAboutReview()
 	}
 	
 	func transformLetters (_ letters: String) -> String {
@@ -385,6 +386,25 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		let result = localizedDict![key]! as String
 		return result
 	}
+    
+    func askAboutReview() {
+        let url = URL(string: "itms-apps://itunes.apple.com/app/id1105827929")!
+        let title = "ALERT TITLE"
+        let message = "ALERT MESSAGE"
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        
+        let cancelAction = UIAlertAction(title: "CANCEL", style: .cancel, handler: nil)
+        let rateAction = UIAlertAction(title: "RATE", style: .default, handler: { alertAction in
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
+            alert.dismiss(animated: true, completion: nil)
+        })
+
+        alert.addAction(cancelAction)
+        alert.addAction(rateAction)
+        present(alert, animated: true, completion: nil)
+    }
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
