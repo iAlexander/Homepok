@@ -28,16 +28,16 @@ class TutorialController: UIViewController {
         if tutorialLaunchCount == 0 {
             tutorialLaunchCount += 1
             defaults.set(tutorialLaunchCount, forKey: numberOfTutorialLaunchesKey)
-            topTextLabel.text = "Привіт, здогадуюсь що ви тут вперше!"
-            bottomTextLabel.text = "Тож пропоную пройти коротке навчання"
+            topTextLabel.text = localizedTextOutput("t01")
+            bottomTextLabel.text = localizedTextOutput("t02")
             print("Tutorial Launch Count: \(tutorialLaunchCount)")
         } else {
             tutorialLaunchCount += 1
             defaults.set(tutorialLaunchCount, forKey: numberOfTutorialLaunchesKey)
             tutorialSteps += 1
             tutorialImageView.image = UIImage(named: "Tutorial1")
-            topTextLabel.text = "Для того щоб перевірити номер"
-            bottomTextLabel.text = "потрібно тапнути на перші дві літери"
+            topTextLabel.text = localizedTextOutput("t11")
+            bottomTextLabel.text = localizedTextOutput("t12")
             print("Tutorial Launch Count: \(tutorialLaunchCount)")
         }
     }
@@ -54,16 +54,16 @@ class TutorialController: UIViewController {
         tutorialSteps += 1
         if tutorialSteps == 1 {
             tutorialImageView.image = UIImage(named: "Tutorial1")
-            topTextLabel.text = "Для того щоб перевірити номер"
-            bottomTextLabel.text = "потрібно тапнути на перші дві літери"
+            topTextLabel.text = localizedTextOutput("t11")
+            bottomTextLabel.text = localizedTextOutput("t12")
         } else if tutorialSteps == 2 {
             tutorialImageView.image = UIImage(named: "Tutorial2")
-            topTextLabel.text = "Ввести ці літери з клавіатури"
-            bottomTextLabel.text = "а після тапнути на кнопку \"Пошук\""
+            topTextLabel.text = localizedTextOutput("t21")
+            bottomTextLabel.text = localizedTextOutput("t22")
         } else if tutorialSteps == 3 {
             tutorialImageView.image = UIImage(named: "Tutorial3")
-            topTextLabel.text = "Вітаємо, ви закінчили навчання!"
-            bottomTextLabel.text = "Починайте користуватись програмою"
+            topTextLabel.text = localizedTextOutput("t31")
+            bottomTextLabel.text = localizedTextOutput("t32")
             tutorialButton.isHidden = true
             finishButton.isHidden = false
         }
@@ -84,13 +84,11 @@ class TutorialController: UIViewController {
     override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
         return .portrait
     }
-
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-//    }
-
+    
+    func localizedTextOutput (_ key: String) -> String {
+        let path = Bundle.main.path(forResource: "LocalizedStrings", ofType: "plist")
+        let localizedDict = NSDictionary(contentsOfFile: path!) as? [String: String]
+        let result = localizedDict![key]! as String
+        return result
+    }
 }
