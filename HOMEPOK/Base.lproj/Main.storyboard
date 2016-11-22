@@ -291,7 +291,7 @@
                                     <constraint firstAttribute="width" secondItem="PX8-Ae-40u" secondAttribute="height" multiplier="25:4" id="MGv-Xc-ZfS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
-                                <state key="normal" title="FINISH TUTORIAL">
+                                <state key="normal" title="EXIT TUTORIAL">
                                     <color key="titleColor" red="1" green="0.83323150869999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
