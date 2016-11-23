@@ -21,15 +21,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
 	var seriesTwo: String = ""
     var launchCount: Double = 0
     var searchCount: Double = 0
+    var reviewFrequency: Double = 0
     let numberOfAppLaunchesKey = "numberOfAppLaunches"
     let numberOfSearchesKey = "numberOfSearches"
+    let reviewFrequencyKey = "reviewFrequency"
     let defaults = UserDefaults.standard
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
         launchCount = defaults.double(forKey: numberOfAppLaunchesKey)
-        searchCount = defaults.double(forKey: numberOfAppLaunchesKey)
-        self.textFieldTwoLetters.delegate = self
+        searchCount = defaults.double(forKey: numberOfSearchesKey)
+        reviewFrequency = defaults.double(forKey: reviewFrequencyKey)
+        textFieldTwoLetters.delegate = self
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -42,6 +45,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         } else {
             launchCount += 1
             defaults.set(launchCount, forKey: numberOfAppLaunchesKey)
+            reviewFrequency = 5
+            defaults.set(reviewFrequency, forKey: reviewFrequencyKey)
             print("App Launch Count: \(launchCount)")
             goToTutorial()
         }
@@ -66,9 +71,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
 	}
 	
 	func checkTheRegion (_ input: String) {
-        searchCount += 1
-        defaults.set(searchCount, forKey: numberOfSearchesKey)
-        print("Search Count: \(searchCount)")
 		if input == "" {
 			return
 		}
@@ -78,8 +80,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		textFieldTwoLetters.placeholder = twoLetters
 		let regionIndex = regionsIndexChecker(twoLetters)
 		let region = regionsChecker(regionIndex)
-		descriptionOutput(twoLetters, name: region, index: regionIndex)
-        if searchCount.truncatingRemainder(dividingBy: 13) == 0 {
+        descriptionOutput(twoLetters, name: region, index: regionIndex)
+        searchCount += 1
+        defaults.set(searchCount, forKey: numberOfSearchesKey)
+        print("Search Count: \(searchCount)")
+        print("Review Frequency: \(reviewFrequency)")
+        if searchCount.truncatingRemainder(dividingBy: reviewFrequency) == 0 {
             askAboutReview()
         }
 	}
@@ -395,9 +401,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let message = localizedTextOutput("rev2")
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
         
-        let cancelAction = UIAlertAction(title: localizedTextOutput("rev3"), style: .destructive, handler: nil)
+        let cancelAction = UIAlertAction(title: localizedTextOutput("rev3"), style: .destructive, handler: { alertAction in
+            self.reviewFrequency = self.reviewFrequency * 2
+            self.defaults.set(self.reviewFrequency, forKey: self.reviewFrequencyKey)
+        })
         let rateAction = UIAlertAction(title: localizedTextOutput("rev4"), style: .default, handler: { alertAction in
             if UIApplication.shared.canOpenURL(url) {
+                self.reviewFrequency = self.reviewFrequency * 3
+                self.defaults.set(self.reviewFrequency, forKey: self.reviewFrequencyKey)
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
             }
             alert.dismiss(animated: true, completion: nil)

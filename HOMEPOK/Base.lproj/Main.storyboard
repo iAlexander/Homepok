@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -271,10 +270,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QS2-HA-7ac">
-                                <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                                <rect key="frame" x="-4" y="607" width="383" height="60"/>
                                 <color key="backgroundColor" red="0.00020956731170000001" green="0.35839307310000001" blue="0.73244351149999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="QS2-HA-7ac" secondAttribute="height" multiplier="25:4" id="sqE-1v-EdN"/>
+                                    <constraint firstAttribute="height" constant="60" id="Pmo-bz-qnq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <state key="normal" title="NEXT ⇨">
@@ -285,10 +284,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PX8-Ae-40u">
-                                <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                                <rect key="frame" x="-4" y="607" width="383" height="60"/>
                                 <color key="backgroundColor" red="0.00020956731168553233" green="0.35839307308197021" blue="0.73244351148605347" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="PX8-Ae-40u" secondAttribute="height" multiplier="25:4" id="MGv-Xc-ZfS"/>
+                                    <constraint firstAttribute="height" constant="60" id="gQV-jK-qsS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <state key="normal" title="EXIT TUTORIAL">
@@ -306,14 +305,14 @@
                             <constraint firstItem="Lxz-mE-we8" firstAttribute="top" secondItem="N4R-EX-N1Y" secondAttribute="top" id="9uV-rg-8H0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="F1p-RX-mDX" secondAttribute="trailing" id="Bsi-od-Xx1"/>
                             <constraint firstItem="PX8-Ae-40u" firstAttribute="top" secondItem="qye-nl-s4B" secondAttribute="bottom" constant="8" id="RjH-sG-9ac"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="QS2-HA-7ac" secondAttribute="trailing" constant="-16" id="TNE-D6-cRA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QS2-HA-7ac" secondAttribute="trailing" constant="-20" id="TNE-D6-cRA"/>
                             <constraint firstItem="Lxz-mE-we8" firstAttribute="leading" secondItem="N4R-EX-N1Y" secondAttribute="leading" id="VlL-pF-LhO"/>
                             <constraint firstItem="qye-nl-s4B" firstAttribute="top" secondItem="F1p-RX-mDX" secondAttribute="bottom" constant="8" id="aMq-am-zhH"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="PX8-Ae-40u" secondAttribute="trailing" constant="-16" id="aOJ-Sv-xpz"/>
-                            <constraint firstItem="PX8-Ae-40u" firstAttribute="leading" secondItem="N4R-EX-N1Y" secondAttribute="leadingMargin" constant="-16" id="ddX-Jl-h90"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PX8-Ae-40u" secondAttribute="trailing" constant="-20" id="aOJ-Sv-xpz"/>
+                            <constraint firstItem="PX8-Ae-40u" firstAttribute="leading" secondItem="N4R-EX-N1Y" secondAttribute="leadingMargin" constant="-20" id="ddX-Jl-h90"/>
                             <constraint firstItem="tgM-OA-gXp" firstAttribute="top" secondItem="PX8-Ae-40u" secondAttribute="bottom" id="iVj-qH-JP8"/>
                             <constraint firstAttribute="leadingMargin" secondItem="qye-nl-s4B" secondAttribute="leading" id="pbm-VF-k61"/>
-                            <constraint firstItem="QS2-HA-7ac" firstAttribute="leading" secondItem="N4R-EX-N1Y" secondAttribute="leadingMargin" constant="-16" id="scA-62-fzU"/>
+                            <constraint firstItem="QS2-HA-7ac" firstAttribute="leading" secondItem="N4R-EX-N1Y" secondAttribute="leadingMargin" constant="-20" id="scA-62-fzU"/>
                             <constraint firstAttribute="trailing" secondItem="Lxz-mE-we8" secondAttribute="trailing" id="usk-ee-YqD"/>
                             <constraint firstItem="tgM-OA-gXp" firstAttribute="top" secondItem="QS2-HA-7ac" secondAttribute="bottom" id="wSQ-zo-DmT"/>
                             <constraint firstItem="PX8-Ae-40u" firstAttribute="top" secondItem="Lxz-mE-we8" secondAttribute="bottom" id="wcV-bs-GsV"/>
