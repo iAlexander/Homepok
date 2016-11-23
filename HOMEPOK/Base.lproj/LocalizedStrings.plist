@@ -89,12 +89,12 @@
 	<key>t32</key>
 	<string>It’s the best time to start using the app</string>
 	<key>rev1</key>
-	<string>TITLE</string>
+	<string>Do you like this app?</string>
 	<key>rev2</key>
 	<string>message message message</string>
 	<key>rev3</key>
-	<string>Cancel</string>
+	<string>Don&apos;t like</string>
 	<key>rev4</key>
-	<string>Rate</string>
+	<string>Rate the app</string>
 </dict>
 </plist>

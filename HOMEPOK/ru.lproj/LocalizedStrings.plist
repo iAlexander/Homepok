@@ -89,12 +89,12 @@
 	<key>t32</key>
 	<string>Смело начинайте пользоваться программой</string>
 	<key>rev1</key>
-	<string>TITLE</string>
+	<string>Нравится приложение?</string>
 	<key>rev2</key>
-	<string>message message message</string>
+	<string>Оцените пожалуйста нас позитивным отзывом в App Store, мы будем вам очень благодарны. Это удвоит ваше удовольствие от использования программы, и в разы улучшит наше настроение.</string>
 	<key>rev3</key>
-	<string>Cancel</string>
+	<string>Не нравится</string>
 	<key>rev4</key>
-	<string>Rate</string>
+	<string>Оценить приложение</string>
 </dict>
 </plist>
