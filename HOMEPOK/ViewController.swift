@@ -48,7 +48,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func tutorialButton(_ sender: Any) {
-        askAboutReview()
         goToTutorial()
     }
     
@@ -80,7 +79,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
 		let regionIndex = regionsIndexChecker(twoLetters)
 		let region = regionsChecker(regionIndex)
 		descriptionOutput(twoLetters, name: region, index: regionIndex)
-        askAboutReview()
+        if searchCount.truncatingRemainder(dividingBy: 13) == 0 {
+            askAboutReview()
+        }
 	}
 	
 	func transformLetters (_ letters: String) -> String {
@@ -392,7 +393,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let url = URL(string: "itms-apps://itunes.apple.com/app/id1105827929")!
         let title = localizedTextOutput("rev1")
         let message = localizedTextOutput("rev2")
-        let alert = UIAlertController(title: title, message: "Please write a positive review on the App Store, we will appreciate that a lot. This will increase your karma and make us happier.", preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
         
         let cancelAction = UIAlertAction(title: localizedTextOutput("rev3"), style: .destructive, handler: nil)
         let rateAction = UIAlertAction(title: localizedTextOutput("rev4"), style: .default, handler: { alertAction in
