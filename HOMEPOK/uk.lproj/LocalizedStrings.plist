@@ -88,5 +88,13 @@
 	<string>Вітаємо, ви закінчили навчання!</string>
 	<key>t32</key>
 	<string>Починайте користуватися програмою</string>
+	<key>rev1</key>
+	<string>TITLE</string>
+	<key>rev2</key>
+	<string>message message message</string>
+	<key>rev3</key>
+	<string>Cancel</string>
+	<key>rev4</key>
+	<string>Rate</string>
 </dict>
 </plist>

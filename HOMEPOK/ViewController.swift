@@ -48,6 +48,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func tutorialButton(_ sender: Any) {
+        askAboutReview()
         goToTutorial()
     }
     
@@ -389,12 +390,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func askAboutReview() {
         let url = URL(string: "itms-apps://itunes.apple.com/app/id1105827929")!
-        let title = "ALERT TITLE"
-        let message = "ALERT MESSAGE"
+        let title = localizedTextOutput("rev1")
+        let message = localizedTextOutput("rev2")
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
         
-        let cancelAction = UIAlertAction(title: "CANCEL", style: .cancel, handler: nil)
-        let rateAction = UIAlertAction(title: "RATE", style: .default, handler: { alertAction in
+        let cancelAction = UIAlertAction(title: localizedTextOutput("rev3"), style: .destructive, handler: nil)
+        let rateAction = UIAlertAction(title: localizedTextOutput("rev4"), style: .default, handler: { alertAction in
             if UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
             }
