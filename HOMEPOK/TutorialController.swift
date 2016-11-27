@@ -50,6 +50,22 @@ class TutorialController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .default
+    }
+    
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+    
+    override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
+        return .portrait
+    }
+    
     @IBAction func nextButton(_ sender: Any) {
         tutorialSteps += 1
         if tutorialSteps == 1 {
@@ -69,26 +85,11 @@ class TutorialController: UIViewController {
         }
     }
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .default
-    }
-    
-    override var shouldAutorotate: Bool {
-        return false
-    }
-    
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .portrait
-    }
-    
-    override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
-        return .portrait
-    }
-    
     func localizedTextOutput (_ key: String) -> String {
         let path = Bundle.main.path(forResource: "LocalizedStrings", ofType: "plist")
         let localizedDict = NSDictionary(contentsOfFile: path!) as? [String: String]
         let result = localizedDict![key]! as String
         return result
     }
+    
 }
