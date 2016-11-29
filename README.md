@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/badge/App version-1.8-blue.svg?style=flat")](http://ialexander.me/2gvl2mQ)
 [![AppStore](https://img.shields.io/badge/App Store-free-brightgreen.svg?style=flat")](https://ialexander.me/2e3Zxeh)
 
-[![HOMEPOK - Catalog of Ukrainian vehicle plates](https://raw.githubusercontent.com/iAlexander/Homepok/master/HOMEPOK.jpg)](https://ialexander.me/2e3Zxeh)
+[![HOMEPOK - Catalog of Ukrainian vehicle plates](https://raw.githubusercontent.com/iAlexander/Homepok/master/Header.jpg)](https://ialexander.me/2e3Zxeh)
 
 ## HOMEPOK - Catalog of Ukrainian vehicle plates, available on <a href="https://ialexander.me/2e3Zxeh">App Store</a>
 1. [Description](#description)
@@ -19,7 +19,7 @@ Application has already been on the 6th position in top of Ukrainian AppStore.
 
 ##<a name="screenshots"> Screenshots </a>
 
-```HOMEPOK``` screenshots ...
+[![HOMEPOK - Catalog of Ukrainian vehicle plates](https://raw.githubusercontent.com/iAlexander/Homepok/master/Screenshots.jpg)](https://ialexander.me/2e3Zxeh)
 
 ##<a name="license"> License </a>
 
