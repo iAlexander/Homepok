@@ -23,8 +23,9 @@ Application has already been on the 6th position in top of Ukrainian AppStore.
 
 ##<a name="license"> License </a>
 
-```HOMEPOK``` is released under ...
+```HOMEPOK``` is released under the MIT license. See the ```LICENSE``` file for details.
 
 ##<a name="contact"> Contact </a>
 
-You can follow or drop me a line on [my Twitter account](https://twitter.com/iAlexander13). If you find any issues on the project, you can open a ticket. Pull requests are also welcome.
+If you find any issues on the project, you can open a ticket. Pull requests are also welcome.
+You can read and follow or drop me a line on my personal Twitter account - [@iAlexander13](https://twitter.com/iAlexander13).
