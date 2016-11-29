@@ -5,6 +5,7 @@
 [![AppStore](https://img.shields.io/badge/App Store-free-brightgreen.svg?style=flat")](https://ialexander.me/2e3Zxeh)
 
 ##HOMEPOK - Catalog of Ukrainian vehicle plates, available on <a href="https://ialexander.me/2e3Zxeh">App Store</a>
+![alt text](https://github.com/iAlexander/Homepok/HOMEPOK.png "HOMEPOK - Catalog of Ukrainian vehicle plates")
 
 ## Contents
 1. [Description](#description)
