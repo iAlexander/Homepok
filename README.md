@@ -23,9 +23,12 @@ Application has already been on the 6th position in top of Ukrainian AppStore.
 
 ##<a name="license"> License </a>
 
-```HOMEPOK``` is released under the MIT license. See the ```LICENSE``` file for details.
+
+```HOMEPOK``` is released under the MIT license. See the ```LICENSE``` file for details  
+Copyright © 2015-2016 Alexander Iashchuk, <a href="https://iashchuk.com">iashchuk.com</a>
 
 ##<a name="contact"> Contact </a>
 
-If you find any issues on the project, you can open a ticket. Pull requests are also welcome.
-You can read and follow or drop me a line on my personal Twitter account - [@iAlexander13](https://twitter.com/iAlexander13).
+
+You can read, follow or drop me a line on my personal Twitter account - [@iAlexander13](https://twitter.com/iAlexander13)  
+If you find any issues on the project, you can open a ticket. Pull requests are also welcome!
