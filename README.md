@@ -1,7 +1,7 @@
-[![Language](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat")](http://ialexander.me/2gvl2mQ)
-[![Platform](https://img.shields.io/badge/Platform-iOS-lightgray.svg?style=flat")](http://ialexander.me/2gvl2mQ)
-[![Devices](https://img.shields.io/badge/Devices-iPhone | iPad-green.svg?style=flat")](http://ialexander.me/2gvl2mQ)
-[![Version](https://img.shields.io/badge/App version-1.8-blue.svg?style=flat")](http://ialexander.me/2gvl2mQ)
+[![Language](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat")](https://ialexander.me/2gvl2mQ)
+[![Platform](https://img.shields.io/badge/Platform-iOS-lightgray.svg?style=flat")](https://ialexander.me/2gvl2mQ)
+[![Devices](https://img.shields.io/badge/Devices-iPhone | iPad-green.svg?style=flat")](https://ialexander.me/2gvl2mQ)
+[![Version](https://img.shields.io/badge/App version-1.8-blue.svg?style=flat")](https://ialexander.me/2gvl2mQ)
 [![AppStore](https://img.shields.io/badge/App Store-free-brightgreen.svg?style=flat")](https://ialexander.me/2e3Zxeh)
 
 [![HOMEPOK - Catalog of Ukrainian vehicle plates](https://raw.githubusercontent.com/iAlexander/Homepok/master/Header.jpg)](https://ialexander.me/2e3Zxeh)
@@ -25,7 +25,7 @@ Application has already been on the 6th position in top of Ukrainian AppStore.
 
 
 ```HOMEPOK``` is released under the MIT license. See the ```LICENSE``` file for details  
-Copyright © 2015-2016 Alexander Iashchuk, <a href="https://iashchuk.com">iashchuk.com</a>
+Copyright © 2015-2017 Alexander Iashchuk, <a href="https://iashchuk.com">iashchuk.com</a>
 
 ##<a name="contact"> Contact </a>
 
