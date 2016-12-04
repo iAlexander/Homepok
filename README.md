@@ -28,6 +28,5 @@ Copyright © 2015-2017 Alexander Iashchuk, <a href="https://iashchuk.com">iashch
 
 ##<a name="contact"> Contact </a>
 
-
 You can read, follow or drop me a line on my personal Twitter account - [@iAlexander13](https://twitter.com/iAlexander13)  
 If you find any issues on the project, you can open a ticket. Pull requests are also welcome!
