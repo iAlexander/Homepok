@@ -7,5 +7,7 @@ target 'HOMEPOK' do
 
   # Pods for HOMEPOK
   pod 'Firebase/Core'
+  pod 'Firebase/Crash'
+  pod 'Firebase/Database'
 
 end
