@@ -7,7 +7,10 @@
 //
 
 import UIKit
+import Fabric
 import Firebase
+import DigitsKit
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        Fabric.with([Answers.self, Digits.self, Crashlytics.self])
         FIRApp.configure()
 		return true
 	}

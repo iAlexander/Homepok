@@ -6,6 +6,9 @@ target 'HOMEPOK' do
   use_frameworks!
 
   # Pods for HOMEPOK
+  pod 'Fabric'
+  pod 'Digits'
+  pod 'Crashlytics'
   pod 'Firebase/Core'
   pod 'Firebase/Crash'
   pod 'Firebase/Database'
