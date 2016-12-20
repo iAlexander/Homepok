@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2A4BBD101CF0D16C00AF04EF /* LocalizedStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A4BBD121CF0D16C00AF04EF /* LocalizedStrings.plist */; };
+		2A4EB3FF1E098C730017E31E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A4EB3FE1E098C730017E31E /* GoogleService-Info.plist */; };
 		2A567A7A1DE394BF0033705A /* TutorialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A567A791DE394BF0033705A /* TutorialController.swift */; };
 		2A5CF3011CC110E000039F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3001CC110E000039F01 /* AppDelegate.swift */; };
 		2A5CF3031CC110E000039F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3021CC110E000039F01 /* ViewController.swift */; };
 		2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CF3041CC110E000039F01 /* Main.storyboard */; };
 		2A5CF30B1CC110E000039F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */; };
-		2ABF67461DD0AEA5009E3735 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ABF67451DD0AEA5009E3735 /* GoogleService-Info.plist */; };
-		2AD335871DEB0A690058433A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AD335861DEB0A690058433A /* Settings.bundle */; };
+		2ABF67461DD0AEA5009E3735 /* oldGoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ABF67451DD0AEA5009E3735 /* oldGoogleService-Info.plist */; };
 		2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */; };
 		34225D878AE471F86E2E73E5 /* Pods_HOMEPOK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C924AF9961D37FBB3E0AFE /* Pods_HOMEPOK.framework */; };
 /* End PBXBuildFile section */
@@ -26,6 +26,7 @@
 		2A4BBD111CF0D16C00AF04EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
 		2A4BBD131CF0D16F00AF04EF /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = uk; path = uk.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
 		2A4BBD141CF0D17000AF04EF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
+		2A4EB3FE1E098C730017E31E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2A567A791DE394BF0033705A /* TutorialController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialController.swift; sourceTree = "<group>"; };
 		2A5CF2FD1CC110E000039F01 /* HOMEPOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOMEPOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5CF3001CC110E000039F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -33,8 +34,7 @@
 		2A5CF3051CC110E000039F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A5CF30A1CC110E000039F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A5CF30C1CC110E000039F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2ABF67451DD0AEA5009E3735 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2AD335861DEB0A690058433A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		2ABF67451DD0AEA5009E3735 /* oldGoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "oldGoogleService-Info.plist"; sourceTree = "<group>"; };
 		2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3882C5AFA88E5F010F7024A1 /* Pods-HOMEPOK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOMEPOK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOMEPOK/Pods-HOMEPOK.debug.xcconfig"; sourceTree = "<group>"; };
 		F1C924AF9961D37FBB3E0AFE /* Pods_HOMEPOK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HOMEPOK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				2A5CF2FF1CC110E000039F01 /* HOMEPOK */,
-				2AD335861DEB0A690058433A /* Settings.bundle */,
 				2A5CF2FE1CC110E000039F01 /* Products */,
 				27B841015DAFB27D2133939F /* Pods */,
 				5947DB1D8A04D9ADF284A66E /* Frameworks */,
@@ -91,7 +90,8 @@
 				2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */,
 				2A4BBD121CF0D16C00AF04EF /* LocalizedStrings.plist */,
 				2A5CF30C1CC110E000039F01 /* Info.plist */,
-				2ABF67451DD0AEA5009E3735 /* GoogleService-Info.plist */,
+				2ABF67451DD0AEA5009E3735 /* oldGoogleService-Info.plist */,
+				2A4EB3FE1E098C730017E31E /* GoogleService-Info.plist */,
 			);
 			path = HOMEPOK;
 			sourceTree = "<group>";
@@ -179,10 +179,10 @@
 			files = (
 				2A5CF30B1CC110E000039F01 /* LaunchScreen.storyboard in Resources */,
 				2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */,
-				2ABF67461DD0AEA5009E3735 /* GoogleService-Info.plist in Resources */,
+				2ABF67461DD0AEA5009E3735 /* oldGoogleService-Info.plist in Resources */,
 				2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */,
-				2AD335871DEB0A690058433A /* Settings.bundle in Resources */,
 				2A4BBD101CF0D16C00AF04EF /* LocalizedStrings.plist in Resources */,
+				2A4EB3FF1E098C730017E31E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
