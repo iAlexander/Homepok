@@ -416,7 +416,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
             if UIApplication.shared.canOpenURL(url) {
                 self.reviewFrequency = self.reviewFrequency * 3
                 self.defaults.set(self.reviewFrequency, forKey: self.reviewFrequencyKey)
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                if #available(iOS 10.0, *) {
+                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                } else {
+                    UIApplication.shared.openURL(url)
+                }
             }
             alert.dismiss(animated: true, completion: nil)
         })
