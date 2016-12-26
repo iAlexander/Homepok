@@ -12,21 +12,22 @@
 3. [License](#license)
 4. [Contact](#contact)
 
-##<a name="description"> Description </a>
+##<a name="description"> Description: </a>
 
 The main goal of the iPhone application ```HOMEPOK``` - is to show people the region of the vehicle (region of Ukraine where the car was registered), based on the automobile plates that are on the car. The application is full of precise vector graphic pictures, like Coat of Arms of each region of Ukraine.
 #### Application has already been on the 6th position in top of Ukrainian AppStore.
 
-##<a name="screenshots"> Screenshots </a>
+##<a name="screenshots"> Screenshots: </a>
 
 [![HOMEPOK - Catalog of Ukrainian vehicle plates](https://raw.githubusercontent.com/iAlexander/Homepok/master/Screenshots.jpg)](https://ialexander.me/2e3Zxeh)
 
-##<a name="license"> License </a>
+##<a name="license"> License: </a>
 
 ```HOMEPOK``` is released under the MIT license. See the ```LICENSE``` file for details  
 Copyright © 2015-2016 Alexander Iashchuk, <a href="https://iashchuk.com">iashchuk.com</a>
 
-##<a name="contact"> Contact </a>
+##<a name="contact"> Contact: </a>
 
 You can read, follow or drop me a line on my personal Twitter account - [@iAlexander13](https://twitter.com/iAlexander13)  
-If you find any issues on the project, you can open a ticket. Pull requests are also welcome!
+If you find any issues on the project, you can open a ticket.  
+Pull requests are also welcome!
