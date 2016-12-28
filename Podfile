@@ -1,3 +1,5 @@
+# Copyright (c) 2015 Alexander Iashchuk, https://iashchuk.com
+
 # Uncomment the next line to define a global platform for your project
   platform :ios, '9.3'
 
