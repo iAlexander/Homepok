@@ -3,7 +3,9 @@
 //  HOMEPOK
 //
 //  Created by Alexander Iashchuk on 4/15/16.
-//  Copyright © 2015 Alexander Iashchuk. All rights reserved.
+//  Copyright © 2015 Alexander Iashchuk (iAlexander), https://iashchuk.com
+//
+//  This application is released under the MIT license. All rights reserved.
 //
 
 import UIKit

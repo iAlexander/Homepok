@@ -6,7 +6,7 @@
 "lsx-8J-cby.text" = "Введите две первые буквы номера";
 
 /* Class = "UILabel"; text = "Copyright © 2016 iashchuk.com"; ObjectID = "cMG-Bv-8EP"; */
-"cMG-Bv-8EP.text" = "Все права защищены © 2016 iashchuk.com";
+"cMG-Bv-8EP.text" = "Все права защищены © 2015 https://iashchuk.com";
 
 /* Class = "UIButton"; normalTitle = "FINISH TUTORIAL"; ObjectID = "PX8-Ae-40u"; */
 "PX8-Ae-40u.normalTitle" = "ЗАКРЫТЬ ПОДСКАЗКИ";
