@@ -7,7 +7,6 @@
 //
 //  This application is released under the MIT license. All rights reserved.
 //
-//
 
 import UIKit
 
