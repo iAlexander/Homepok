@@ -23,11 +23,11 @@ The main goal of the iPhone application ```HOMEPOK``` - is to show people the re
 
 ##<a name="license"> License: </a>
 
-```HOMEPOK``` is released under the MIT license. Check the ```LICENSE``` file for details  
-Copyright © 2015 Alexander Iashchuk, <a href="https://iashchuk.com">iashchuk.com</a>
+```HOMEPOK``` is released under the MIT license. Check the ```LICENSE``` file for details.  
+Copyright © 2015 Alexander Iashchuk, <a href="https://iashchuk.com">iashchuk.com</a>.
 
 ##<a name="contact"> Contact: </a>
 
-You can read, follow or drop me a line on my personal Twitter account - [@iAlexander13](https://twitter.com/iAlexander13)  
+You can read, follow or drop me a line on my personal Twitter account - [@iAlexander13](https://twitter.com/iAlexander13).  
 If you find any issues on the project, you can open a ticket.  
 Pull requests are also welcome!
