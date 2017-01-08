@@ -84,7 +84,7 @@
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="coatOfArms28" translatesAutoresizingMaskIntoConstraints="NO" id="I5F-a9-n6c">
                                         <rect key="frame" x="0.0" y="0.0" width="167.5" height="160"/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="coatOfArms11" translatesAutoresizingMaskIntoConstraints="NO" id="eyF-BH-jI1">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="coatOfArms05" translatesAutoresizingMaskIntoConstraints="NO" id="eyF-BH-jI1">
                                         <rect key="frame" x="175.5" y="0.0" width="167.5" height="160"/>
                                     </imageView>
                                 </subviews>
@@ -187,7 +187,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="coatOfArms11" width="122" height="160"/>
+        <image name="coatOfArms05" width="146" height="160"/>
         <image name="coatOfArms28" width="116" height="160"/>
         <image name="mapUkraine28" width="302" height="203"/>
         <image name="platePreRendered" width="356" height="70"/>
