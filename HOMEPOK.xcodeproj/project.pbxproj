@@ -14,6 +14,7 @@
 		2A5CF3031CC110E000039F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3021CC110E000039F01 /* ViewController.swift */; };
 		2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CF3041CC110E000039F01 /* Main.storyboard */; };
 		2A5CF30B1CC110E000039F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */; };
+		2AE29C231E228FAA009024B8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AE29C221E228FAA009024B8 /* Settings.bundle */; };
 		2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */; };
 		D17785C5FB12EFEDE66B4225 /* Pods_HOMEPOK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F905EB2D6479E37FAA0EE9AA /* Pods_HOMEPOK.framework */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		2A5CF3051CC110E000039F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A5CF30A1CC110E000039F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A5CF30C1CC110E000039F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE29C221E228FAA009024B8 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16A0C02B3562DE65FF21D9B /* Pods-HOMEPOK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOMEPOK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOMEPOK/Pods-HOMEPOK.debug.xcconfig"; sourceTree = "<group>"; };
 		F905EB2D6479E37FAA0EE9AA /* Pods_HOMEPOK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HOMEPOK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				2A5CF2FF1CC110E000039F01 /* HOMEPOK */,
+				2AE29C221E228FAA009024B8 /* Settings.bundle */,
 				2A5CF2FE1CC110E000039F01 /* Products */,
 				EC779F04CEF237A8B7B19BD1 /* Pods */,
 				6A8D012258DBA745C178EEE1 /* Frameworks */,
@@ -179,6 +182,7 @@
 				2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */,
 				2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */,
 				2A4BBD101CF0D16C00AF04EF /* LocalizedStrings.plist in Resources */,
+				2AE29C231E228FAA009024B8 /* Settings.bundle in Resources */,
 				2A4EB3FF1E098C730017E31E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
