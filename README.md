@@ -6,7 +6,7 @@
 
 [![HOMEPOK - Catalog of Ukrainian vehicle plates](https://raw.githubusercontent.com/iAlexander/Homepok/master/Header.jpg)](https://ialexander.me/2e3Zxeh)
 
-## HOMEPOK - Catalog of Ukrainian vehicle plates, available on <a href="https://ialexander.me/2e3Zxeh">App Store</a>
+##HOMEPOK - Catalog of Ukrainian vehicle plates, available on <a href="https://ialexander.me/2e3Zxeh">App Store</a>
 1. [Description](#description)
 2. [Screenshots](#screenshots)
 3. [License](#license)
@@ -15,7 +15,7 @@
 ##<a name="description">Description:</a>
 
 The main goal of the iPhone application ```HOMEPOK``` - is to show people the region of the vehicle (region of Ukraine where the car was registered), based on the automobile plates that are on the car. The application is full of precise vector graphic pictures, like Coat of Arms of each region of Ukraine.
-#### Application has already been on the 4th position in top of Ukrainian AppStore.
+####Application has already been on the 4th position in top of Ukrainian AppStore.
 
 ##<a name="screenshots">Screenshots:</a>
 
