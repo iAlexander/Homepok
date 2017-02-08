@@ -10,13 +10,13 @@
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
-			<string>Group</string>
+			<string>Title - Group</string>
 		</dict>
 		<dict>
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>Title</key>
-			<string>Name</string>
+			<string>Title - Name</string>
 			<key>Key</key>
 			<string>name_preference</string>
 			<key>DefaultValue</key>
