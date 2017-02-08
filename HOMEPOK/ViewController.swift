@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  HOMEPOK
+//  HOMEPOK - Catalog of Ukrainian vehicle plates
 //
 //  Created by Alexander Iashchuk on 4/15/16.
 //  Copyright © 2015 Alexander Iashchuk (iAlexander), https://iashchuk.com
@@ -416,7 +416,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         })
         let rateAction = UIAlertAction(title: localizedTextOutput("rev4"), style: .default, handler: { alertAction in
             if UIApplication.shared.canOpenURL(url) {
-                self.reviewFrequency = self.reviewFrequency * 3
+                self.reviewFrequency = self.reviewFrequency * 10
                 self.defaults.set(self.reviewFrequency, forKey: self.reviewFrequencyKey)
                 if #available(iOS 10.0, *) {
                     UIApplication.shared.open(url, options: [:], completionHandler: nil)

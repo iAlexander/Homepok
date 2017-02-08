@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  HOMEPOK
+//  HOMEPOK - Catalog of Ukrainian vehicle plates
 //
 //  Created by Alexander Iashchuk on 4/15/16.
 //  Copyright © 2015 Alexander Iashchuk (iAlexander), https://iashchuk.com
