@@ -64,6 +64,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5393361E4FD74D009677BA /* To Remove */ = {
+			isa = PBXGroup;
+			children = (
+				2A53932E1E4FD650009677BA /* MasterViewController.swift */,
+				2A53932F1E4FD650009677BA /* NewColors.swift */,
+				2A5393301E4FD650009677BA /* PlayerViewController.swift */,
+				2A5393311E4FD650009677BA /* UploaderModel.swift */,
+				2A53932C1E4FD637009677BA /* BackgroundMode.swift */,
+				2A53932A1E4FD628009677BA /* CameraViewController.swift */,
+				2A5393281E4FD61D009677BA /* DropboxViewController.swift */,
+			);
+			name = "To Remove";
+			sourceTree = "<group>";
+		};
 		2A5CF2F41CC110E000039F01 = {
 			isa = PBXGroup;
 			children = (
@@ -85,13 +99,7 @@
 		2A5CF2FF1CC110E000039F01 /* HOMEPOK */ = {
 			isa = PBXGroup;
 			children = (
-				2A53932E1E4FD650009677BA /* MasterViewController.swift */,
-				2A53932F1E4FD650009677BA /* NewColors.swift */,
-				2A5393301E4FD650009677BA /* PlayerViewController.swift */,
-				2A5393311E4FD650009677BA /* UploaderModel.swift */,
-				2A53932C1E4FD637009677BA /* BackgroundMode.swift */,
-				2A53932A1E4FD628009677BA /* CameraViewController.swift */,
-				2A5393281E4FD61D009677BA /* DropboxViewController.swift */,
+				2A5393361E4FD74D009677BA /* To Remove */,
 				2A5CF3001CC110E000039F01 /* AppDelegate.swift */,
 				2A5CF3021CC110E000039F01 /* ViewController.swift */,
 				2A567A791DE394BF0033705A /* TutorialController.swift */,
