@@ -3511,7 +3511,106 @@ extension UIInterfaceOrientation {
 }
 
 extension AVCaptureDeviceDiscoverySession {
-    
+    class MasterViewController: UITableViewController {
+        
+        var detailViewController: PlayerViewController? = nil
+        var videosArray: [String] = Array()
+        let savedVideosArrayKey = "savedVideosArray"
+        var speechArray: [String] = Array()
+        let savedSpeechArrayKey = "savedSpeechArray"
+        
+        var cellInformationContent = [Int: Bool]()
+        var cellTextContent = [Int: Bool]()
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            tableView.delegate = self
+            tableView.dataSoclass MasterViewController: UITableViewController {
+                
+                var detailViewController: PlayerViewController? = nil
+                var videosArray: [String] = Array()
+                let savedVideosArrayKey = "savedVideosArray"
+                var speechArray: [String] = Array()
+                let savedSpeechArrayKey = "savedSpeechArray"
+                
+                var cellInformationContent = [Int: Bool]()
+                var cellTextContent = [Int: Bool]()
+                
+                override func viewDidLoad() {
+                    super.viewDidLoad()
+                    tableView.delegate = self
+                    tableView.dataSource = self
+                }
+                
+                override func viewWillAppear(_ animated: Bool) {
+                    let defaults = UserDefaults.standard
+                    if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+                        videosArray = arrayValue as! [String]
+                    }
+                    if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+                        speechArray = arrayValue as! [String]
+                    }
+                    self.tableView.reloadData()
+                    super.viewWillAppear(animated)
+                }
+                
+                override func didReceiveMemoryWarning() {
+                    super.didReceiveMemoryWarning()
+                }
+                
+                // MARK: - Segues: Prepare the data before the segurce = self
+        }
+        
+        override func viewWillAppear(_ animated: Bool) {
+            let defaults = UserDefaults.standard
+            if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+                videosArray = arrayValue as! [String]
+            }class MasterViewController: UITableViewController {
+                
+                var detailViewController: PlayerViewController? = nil
+                var videosArray: [String] = Array()
+                let savedVideosArrayKey = "savedVideosArray"
+                var speechArray: [String] = Array()
+                let savedSpeechArrayKey = "savedSpeechArray"
+                
+                var cellInformationContent = [Int: Bool]()
+                var cellTextContent = [Int: Bool]()
+                
+                override func viewDidLoad() {
+                    super.viewDidLoad()
+                    tableView.delegate = self
+                    tableView.dataSource = self
+                }
+                
+                override func viewWillAppear(_ animated: Bool) {
+                    let defaults = UserDefaults.standard
+                    if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+                        videosArray = arrayValue as! [String]
+                    }
+                    if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+                        speechArray = arrayValue as! [String]
+                    }
+                    self.tableView.reloadData()
+                    super.viewWillAppear(animated)
+                }
+                
+                override func didReceiveMemoryWarning() {
+                    super.didReceiveMemoryWarning()
+                }
+                
+                // MARK: - Segues: Prepare the data before the seg
+            if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+                speechArray = arrayValue as! [String]
+            }
+            self.tableView.reloadData()
+            super.viewWillAppear(animated)
+        }
+        
+        override func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+        }
+        
+        // MARK: - Segues: Prepare the data before the seg
     func uniqueDevicePositionsCount() -> Int {
         var uniqueDevicePositions = [AVCaptureDevicePosition]()
         

@@ -3,7 +3,40 @@
 //  HOMEPOK - Catalog of Ukrainian vehicle plates
 //
 //  Created by Alexander Iashchuk on 11/9/16.
-//  Copyright © 2015 Alexander Iashchuk (iAlexander), https://iashchuk.com
+//  Copyright © 2015 Alexander Iaclass MasterViewController: UITableViewController {
+    
+    var detailViewController: PlayerViewController? = nil
+    var videosArray: [String] = Array()
+    let savedVideosArrayKey = "savedVideosArray"
+    var speechArray: [String] = Array()
+    let savedSpeechArrayKey = "savedSpeechArray"
+    
+    var cellInformationContent = [Int: Bool]()
+    var cellTextContent = [Int: Bool]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let defaults = UserDefaults.standard
+        if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+            videosArray = arrayValue as! [String]
+        }
+        if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+            speechArray = arrayValue as! [String]
+        }
+        self.tableView.reloadData()
+        super.viewWillAppear(animated)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    // MARK: - Segues: Prepare the data before the segshchuk (iAlexander), https://iashchuk.com
 //
 //  This application is released under the MIT license. All rights reserved.
 //
@@ -16,7 +49,40 @@ class MasterViewController: UITableViewController {
     var detailViewController: PlayerViewController? = nil
     var videosArray: [String] = Array()
     let savedVideosArrayKey = "savedVideosArray"
+    var speechArray: [String] = Arraclass MasterViewController: UITableViewController {
+    
+    var detailViewController: PlayerViewController? = nil
+    var videosArray: [String] = Array()
+    let savedVideosArrayKey = "savedVideosArray"
     var speechArray: [String] = Array()
+    let savedSpeechArrayKey = "savedSpeechArray"
+    
+    var cellInformationContent = [Int: Bool]()
+    var cellTextContent = [Int: Bool]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let defaults = UserDefaults.standard
+        if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+            videosArray = arrayValue as! [String]
+        }
+        if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+            speechArray = arrayValue as! [String]
+        }
+        self.tableView.reloadData()
+        super.viewWillAppear(animated)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    // MARK: - Segues: Prepare the data before the segy()
     let savedSpeechArrayKey = "savedSpeechArray"
     
     var cellInformationContent = [Int: Bool]()
@@ -96,7 +162,139 @@ class MasterViewController: UITableViewController {
         } catch let error as NSError {
             print("Error generating thumbnail: \(error)")
             thumbnail = UIImage(named: "PlayFilled")!
+        }class MasterViewController: UITableViewController {
+            
+            var detailViewController: PlayerViewController? = nil
+            var videosArray: [String] = Array()
+            let savedVideosArrayKey = "savedVideosArray"
+            var speechArray: [String] = Array()
+            let savedSpeechArrayKey = "savedSpeechArray"
+            
+            var cellInformationContent = [Int: Bool]()
+            var cellTextContent = [Int:class MasterViewController: UITableViewController {
+    
+    var detailViewController: PlayerViewController? = nil
+    var videosArray: [String] = Array()
+    let savedVideosArrayKey = "savedVideosArray"
+    var speechArray: [String] = Array()
+    let savedSpeechArrayKey = "savedSpeechArray"
+    
+    var cellInformationContent = [Int: Bool]()
+    var cellTextContent = [Int: Bool]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let defaults = UserDefaults.standard
+        if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+            videosArray = arrayValue as! [String]
         }
+        if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+            speechArray = arrayValue as! [String]
+        }
+        self.tableView.reloadData()
+        super.viewWillAppear(animated)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    // MARK: - Segues: Prepare the data before the segclass MasterViewController: UITableViewController {
+    
+    var detailViewController: PlayerViewController? = nil
+    var videosArray: [String] = Array()
+    let savedVideosArrayKey = "savedVideosArray"
+    var speechArray: [String] = Array()
+    let savedSpeechArrayKey = "savedSpeechArray"
+    
+    var cellInformationContent = [Int: Bool]()
+    var cellTextContent = [Int: Bool]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let defaults = UserDefaults.standard
+        if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+            videosArray = arrayValue as! [String]
+        }
+        if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+            speechArray = arrayValue as! [String]
+        }
+        self.tableView.reloadData()
+        super.viewWillAppear(animated)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    // MARK: - Segues: Prepare the data before the segclass MasterViewController: UITableViewController {
+    
+    var detailViewController: PlayerViewController? = nil
+    var videosArray: [String] = Array()
+    let savedVideosArrayKey = "savedVideosArray"
+    var speechArray: [String] = Array()
+    let savedSpeechArrayKey = "savedSpeechArray"
+    
+    var cellInformationContent = [Int: Bool]()
+    var cellTextContent = [Int: Bool]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let defaults = UserDefaults.standard
+        if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+            videosArray = arrayValue as! [String]
+        }
+        if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+            speechArray = arrayValue as! [String]
+        }
+        self.tableView.reloadData()
+        super.viewWillAppear(animated)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    // MARK: - Segues: Prepare the data before the seg Bool]()
+            
+            override func viewDidLoad() {
+                super.viewDidLoad()
+                tableView.delegate = self
+                tableView.dataSource = self
+            }
+            
+            override func viewWillAppear(_ animated: Bool) {
+                let defaults = UserDefaults.standard
+                if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+                    videosArray = arrayValue as! [String]
+                }
+                if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+                    speechArray = arrayValue as! [String]
+                }
+                self.tableView.reloadData()
+                super.viewWillAppear(animated)
+            }
+            
+            override func didReceiveMemoryWarning() {
+                super.didReceiveMemoryWarning()
+            }
+            
+            // MARK: - Segues: Prepare the data before the seg
         var creation = ""
         var duration = 0
         var latitude = ""
@@ -157,16 +355,115 @@ class MasterViewController: UITableViewController {
         // Return false if you do not want the specified item to be editable.
         return true
     }
+    class MasterViewController: UITableViewController {
     
+    var detailViewController: PlayerViewController? = nil
+    var videosArray: [String] = Array()
+    let savedVideosArrayKey = "savedVideosArray"
+    var speechArray: [String] = Array()
+    let savedSpeechArrayKey = "savedSpeechArray"
+    
+    var cellInformationContent = [Int: Bool]()
+    var cellTextContent = [Int: Bool]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let defaults = UserDefaults.standard
+        if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+            videosArray = arrayValue as! [String]
+        }
+        if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+            speechArray = arrayValue as! [String]
+        }
+        self.tableView.reloadData()
+        super.viewWillAppear(animated)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    // MARK: - Segues: Prepare the data before the seg
     // MARK: - Swipe buttons: Swipe to edit buttons configuration
     
-    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+    override func tableView(_ tableViclass MasterViewController: UITableViewController {
+    
+    var detailViewController: PlayerViewController? = nil
+    var videosArray: [String] = Array()
+    let savedVideosArrayKey = "savedVideosArray"
+    var speechArray: [String] = Array()
+    let savedSpeechArrayKey = "savedSpeechArray"
+    
+    var cellInformationContent = [Int: Bool]()
+    var cellTextContent = [Int: Bool]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let defaults = UserDefaults.standard
+        if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+            videosArray = arrayValue as! [String]
+        }
+        if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+            speechArray = arrayValue as! [String]
+        }
+        self.tableView.reloadData()
+        super.viewWillAppear(animated)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    // MARK: - Segues: Prepare the data before the segew: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         let delete = UITableViewRowAction(style: .destructive, title: "Delete") { (action, indexPath) in
             
             // MARK: Swipe to delete cell (with video and text from iPhone and Dropbox)
             
             let filename = self.videosArray[indexPath.row]
-            let path = (NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).last! as NSString).appendingPathComponent((filename as NSString).appendingPathExtension("mov")!)
+            let path = (NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomaiclass MasterViewController: UITableViewController {
+                
+                var detailViewController: PlayerViewController? = nil
+                var videosArray: [String] = Array()
+                let savedVideosArrayKey = "savedVideosArray"
+                var speechArray: [String] = Array()
+                let savedSpeechArrayKey = "savedSpeechArray"
+                
+                var cellInformationContent = [Int: Bool]()
+                var cellTextContent = [Int: Bool]()
+                
+                override func viewDidLoad() {
+                    super.viewDidLoad()
+                    tableView.delegate = self
+                    tableView.dataSource = self
+                }
+                
+                override func viewWillAppear(_ animated: Bool) {
+                    let defaults = UserDefaults.standard
+                    if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+                        videosArray = arrayValue as! [String]
+                    }
+                    if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+                        speechArray = arrayValue as! [String]
+                    }
+                    self.tableView.reloadData()
+                    super.viewWillAppear(animated)
+                }
+                
+                override func didReceiveMemoryWarning() {
+                    super.didReceiveMemoryWarning()
+                }
+                
+                // MARK: - Segues: Prepare the data before the segnMask.userDomainMask, true).last! as NSString).appendingPathComponent((filename as NSString).appendingPathExtension("mov")!)
             if FileManager.default.fileExists(atPath: path) {
                 do {
                     try FileManager.default.removeItem(atPath: path)
@@ -227,7 +524,73 @@ class MasterViewController: UITableViewController {
         text.backgroundColor = UIColor.blue
         metadata.backgroundColor = UIColor.orange
         print("self.cellInformationContent")
-        print(self.cellInformationContent)
+            print(self.cellInfoclass MasterViewController: UITableViewController {
+                
+                var detailViewController: PlayerViewController? = nil
+                var videosArray: [String] = Array()
+                let savedVideosArrayKey = "savedVideosArray"
+                var speechArray: [String] = Array()
+                let savedSpeechArrayKey = "savedSpeechArray"
+                
+                var cellInformationContent = [Int: Bool]()
+                var cellTextContent = [Int: Bool]()
+                
+                override func vclass MasterViewController: UITableViewController {
+                    
+                    var detailViewController: PlayerViewController? = nil
+                    var videosArray: [String] = Array()
+                    let savedVideosArrayKey = "savedVideosArray"
+                    var speechArray: [String] = Array()
+                    let savedSpeechArrayKey = "savedSpeechArray"
+                    
+                    var cellInformationContent = [Int: Bool]()
+                    var cellTextContent = [Int: Bool]()
+                    
+                    override func viewDidLoad() {
+                        super.viewDidLoad()
+                        tableView.delegate = self
+                        tableView.dataSource = self
+                    }
+                    
+                    override func viewWillAppear(_ animated: Bool) {
+                        let defaults = UserDefaults.standard
+                        if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+                            videosArray = arrayValue as! [String]
+                        }
+                        if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+                            speechArray = arrayValue as! [String]
+                        }
+                        self.tableView.reloadData()
+                        super.viewWillAppear(animated)
+                    }
+                    
+                    override func didReceiveMemoryWarning() {
+                        super.didReceiveMemoryWarning()
+                    }
+                    
+                    // MARK: - Segues: Prepare the data before the segiewDidLoad() {
+                    super.viewDidLoad()
+                    tableView.delegate = self
+                    tableView.dataSource = self
+                }
+                
+                override func viewWillAppear(_ animated: Bool) {
+                    let defaults = UserDefaults.standard
+                    if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+                        videosArray = arrayValue as! [String]
+                    }
+                    if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+                        speechArray = arrayValue as! [String]
+                    }
+                    self.tableView.reloadData()
+                    super.viewWillAppear(animated)
+                }
+                
+                override func didReceiveMemoryWarning() {
+                    super.didReceiveMemoryWarning()
+                }
+                
+                // MARK: - Segues: Prepare the data before the segrmationContent)
         print("self.cellTextContent")
         print(self.cellTextContent)
         return [delete, metadata, text]
@@ -241,7 +604,106 @@ class MasterViewController: UITableViewController {
 // MARK: - Extension: Date formatter extension
 
 extension Date {
+    class MasterViewController: UITableViewController {
+        
+        var detailViewController: PlayerViewController? = nil
+        var videosArray: [String] = Array()
+        let savedVideosArrayKey = "savedVideosArray"
+        var speechArray: [String] = Array()
+        let savedSpeechArrayKey = "savedSpeechArray"
+        
+        var cellInformationContent = [Int: Bool]()
+        var cellTextContent = [Int: Bool]()
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            tableView.delegate = self
+            tableView.dataSource = self
+        }
+        
+        override func viewWillAppear(_ animated: Bool) {
+            let defaults = UserDefaults.standard
+            if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+                videosArray = arrayValue as! [String]
+            }
+            if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+                speechArray = arclass MasterViewController: UITableViewController {
+                    
+                    var detailViewController: PlayerViewController? = nil
+                    var videosArray: [String] = Array()
+                    let savedVideosArrayKey = "savedVideosArray"
+                    var speechArray: [String] = Array()
+                    let savedSpeechArrayKey = "savedSpeechArray"
+                    
+                    var cellInformationContent = [Int: Bool]()
+                    var cellTextContent = [Int: Bool]()
+                    
+                    override func viewDidLoad() {
+                        super.viewDidLoad()
+                        tableView.delegate = self
+                        tableView.dataSource = self
+                    }
+                    
+                    override func viewWillAppear(_ animated: Bool) {
+                        let defaults = UserDefaults.standard
+                        if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+                            videosArray = arrayValue as! [String]
+                        }
+                        if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+                            speechArray = arrayValue as! [String]
+                        }
+                        self.tableView.reloadData()
+                        super.viewWillAppear(animated)
+                    }
+                    
+                    override func didReceiveMemoryWarning() {
+                        super.didReceiveMemoryWarning()
+                    }
+                    
+                    // MARK: - Segues: Prepare the data before the segrayValue as! [String]
+            }
+            self.tableView.reloadData()
+            super.viewWillAclass MasterViewController: UITableViewController {
     
+    var detailViewController: PlayerViewController? = nil
+    var videosArray: [String] = Array()
+    let savedVideosArrayKey = "savedVideosArray"
+    var speechArray: [String] = Array()
+    let savedSpeechArrayKey = "savedSpeechArray"
+    
+    var cellInformationContent = [Int: Bool]()
+    var cellTextContent = [Int: Bool]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let defaults = UserDefaults.standard
+        if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+            videosArray = arrayValue as! [String]
+        }
+        if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+            speechArray = arrayValue as! [String]
+        }
+        self.tableView.reloadData()
+        super.viewWillAppear(animated)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    // MARK: - Segues: Prepare the data before the segppear(animated)
+        }
+        
+        override func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+        }
+        
+        // MARK: - Segues: Prepare the data before the seg
     func toString() -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .medium
