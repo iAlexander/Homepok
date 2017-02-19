@@ -3844,7 +3844,40 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
          returns.
          
          Note: Since we use a unique file path for each recording, a new recording will
-         not overwrite a recording currently being saved.
+         not overwrite a recordingclass MasterViewController: UITableViewController {
+         
+         var detailViewController: PlayerViewController? = nil
+         var videosArray: [String] = Array()
+         let savedVideosArrayKey = "savedVideosArray"
+         var speechArray: [String] = Array()
+         let savedSpeechArrayKey = "savedSpeechArray"
+         
+         var cellInformationContent = [Int: Bool]()
+         var cellTextContent = [Int: Bool]()
+         
+         override func viewDidLoad() {
+         super.viewDidLoad()
+         tableView.delegate = self
+         tableView.dataSource = self
+         }
+         
+         override func viewWillAppear(_ animated: Bool) {
+         let defaults = UserDefaults.standard
+         if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+         videosArray = arrayValue as! [String]
+         }
+         if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+         speechArray = arrayValue as! [String]
+         }
+         self.tableView.reloadData()
+         super.viewWillAppear(animated)
+         }
+         
+         override func didReceiveMemoryWarning() {
+         super.didReceiveMemoryWarning()
+         }
+         
+         // MARK: - Segues: Prepare the data before the seg currently being saved.
          */
         
         func cleanup() {
@@ -4143,7 +4176,40 @@ extension AVCaptureDeviceDiscoverySession {
 }
 
 extension SFSpeechRecognitionTaskDelegate {
-    
+    class MasterViewController: UITableViewController {
+        
+        var detailViewController: PlayerViewController? = nil
+        var videosArray: [String] = Array()
+        let savedVideosArrayKey = "savedVideosArray"
+        var speechArray: [String] = Array()
+        let savedSpeechArrayKey = "savedSpeechArray"
+        
+        var cellInformationContent = [Int: Bool]()
+        var cellTextContent = [Int: Bool]()
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            tableView.delegate = self
+            tableView.dataSource = self
+        }
+        
+        override func viewWillAppear(_ animated: Bool) {
+            let defaults = UserDefaults.standard
+            if let arrayValue = defaults.array(forKey: savedVideosArrayKey) {
+                videosArray = arrayValue as! [String]
+            }
+            if let arrayValue = defaults.array(forKey: savedSpeechArrayKey) {
+                speechArray = arrayValue as! [String]
+            }
+            self.tableView.reloadData()
+            super.viewWillAppear(animated)
+        }
+        
+        override func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+        }
+        
+        // MARK: - Segues: Prepare the data before the seg
     func speechRecognitionTask(_ task: SFSpeechRecognitionTask, didFinishSuccessfully successfully: Bool) {
         if successfully {
             print("+++++++++TRUE+++++++++")
