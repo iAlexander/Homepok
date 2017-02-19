@@ -1,4 +1,4 @@
-# HOMEPOK 1.9 remote repositories list
+# HOMEPOK 1.9.1 remote repositories list
 # Copyright (c) 2015 Alexander Iashchuk, https://iashchuk.com
 
 platform :ios, '9.3'
