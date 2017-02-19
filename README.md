@@ -6,7 +6,7 @@
 
 [![HOMEPOK - Catalog of Ukrainian vehicle plates](https://raw.githubusercontent.com/iAlexander/Homepok/master/Header.jpg)](https://ialexander.me/2e3Zxeh)
 
-##HOMEPOK - Catalog of Ukrainian vehicle plates, available on <a href="https://ialexander.me/2e3Zxeh">App Store</a>
+##HOMEPOK - Catalog of Ukrainian vehicle plates, available on <a href="https://ialexander.me/2e3Zxeh">App Store</a> for Free
 1. [Description](#description)
 2. [Screenshots](#screenshots)
 3. [License](#license)
