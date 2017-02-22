@@ -10,8 +10,6 @@
 		2A4BBD101CF0D16C00AF04EF /* LocalizedStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A4BBD121CF0D16C00AF04EF /* LocalizedStrings.plist */; };
 		2A4EB3FF1E098C730017E31E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A4EB3FE1E098C730017E31E /* GoogleService-Info.plist */; };
 		2A53932B1E4FD628009677BA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A53932A1E4FD628009677BA /* CameraViewController.swift */; };
-		2A53932D1E4FD637009677BA /* BackgroundMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A53932C1E4FD637009677BA /* BackgroundMode.swift */; };
-		2A5393321E4FD650009677BA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A53932E1E4FD650009677BA /* MasterViewController.swift */; };
 		2A5393341E4FD650009677BA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5393301E4FD650009677BA /* PlayerViewController.swift */; };
 		2A567A7A1DE394BF0033705A /* TutorialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A567A791DE394BF0033705A /* TutorialController.swift */; };
 		2A5CF3011CC110E000039F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF3001CC110E000039F01 /* AppDelegate.swift */; };
@@ -31,8 +29,6 @@
 		2A4BBD141CF0D17000AF04EF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
 		2A4EB3FE1E098C730017E31E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2A53932A1E4FD628009677BA /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		2A53932C1E4FD637009677BA /* BackgroundMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundMode.swift; sourceTree = "<group>"; };
-		2A53932E1E4FD650009677BA /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		2A5393301E4FD650009677BA /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		2A567A791DE394BF0033705A /* TutorialController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialController.swift; sourceTree = "<group>"; };
 		2A5CF2FD1CC110E000039F01 /* HOMEPOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOMEPOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,9 +57,7 @@
 		2A5393361E4FD74D009677BA /* To Remove */ = {
 			isa = PBXGroup;
 			children = (
-				2A53932E1E4FD650009677BA /* MasterViewController.swift */,
 				2A5393301E4FD650009677BA /* PlayerViewController.swift */,
-				2A53932C1E4FD637009677BA /* BackgroundMode.swift */,
 				2A53932A1E4FD628009677BA /* CameraViewController.swift */,
 			);
 			name = "To Remove";
@@ -275,9 +269,7 @@
 				2A53932B1E4FD628009677BA /* CameraViewController.swift in Sources */,
 				2A5CF3011CC110E000039F01 /* AppDelegate.swift in Sources */,
 				2A567A7A1DE394BF0033705A /* TutorialController.swift in Sources */,
-				2A53932D1E4FD637009677BA /* BackgroundMode.swift in Sources */,
 				2A5393341E4FD650009677BA /* PlayerViewController.swift in Sources */,
-				2A5393321E4FD650009677BA /* MasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
