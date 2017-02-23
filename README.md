@@ -1,5 +1,5 @@
  [![Language](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](#)
- [![Platform](https://img.shields.io/badge/Platform-iOS 9.3-lightgray.svg?style=flat)](#)
+[![Platform](https://img.shields.io/badge/Platform-iOS 9.3-lightgray.svg?style=flat)](#)
 [![Devices](https://img.shields.io/badge/Devices-iPhone | iPad-DAA522.svg?style=flat)](#)
 [![Version](https://img.shields.io/badge/App version-1.9.1-blue.svg?style=flat)](#)
 [![AppStore](https://img.shields.io/badge/App Store-Free-brightgreen.svg?style=flat)](https://ialexander.me/2e3Zxeh)
