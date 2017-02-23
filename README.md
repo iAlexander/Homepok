@@ -30,4 +30,4 @@ Copyright © 2015 <a href="https://iashchuk.com">Alexander Iashchuk</a>.
 
 You can read, follow or drop me a line on my personal Twitter account - [@iAlexander13](https://twitter.com/iAlexander13).  
 If you find any issues on the project, you can open a ticket.  
-Pull requests are also welcome!
+Your pull requests are also welcome!
