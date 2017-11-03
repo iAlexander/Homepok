@@ -24,7 +24,7 @@ The main goal of the iPhone application ```HOMEPOK``` - is to show people the re
 ## <a name="license">License:</a>
 
 ```HOMEPOK``` is released under the MIT license. Check the ```LICENSE``` file for details.  
-Copyright © 2015 <a href="https://iashchuk.com">Alexander Iashchuk</a>.
+Copyright © 2015-2017 <a href="https://iashchuk.com">Alexander Iashchuk</a>.
 
 ## <a name="contact">Contact:</a>
 
