@@ -1,7 +1,7 @@
 [![Language](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](#)
 [![Platform](https://img.shields.io/badge/iOS-9.3-lightgray.svg?style=flat)](#)
 [![Devices](https://img.shields.io/badge/Devices-iPhone_and_iPad-green.svg?style=flat)](#)
-[![Version](https://img.shields.io/badge/App_version-1.9.2-blue.svg?style=flat)](#)
+[![Version](https://img.shields.io/badge/App_version-1.9.1-blue.svg?style=flat)](#)
 [![AppStore](https://img.shields.io/badge/App_Store-Free-brightgreen.svg?style=flat)](https://ialexander.me/2e3Zxeh)
 
 [![HOMEPOK - Catalog of Ukrainian vehicle plates](https://raw.githubusercontent.com/iAlexander/Homepok/master/Header.jpg)](https://ialexander.me/2e3Zxeh)
