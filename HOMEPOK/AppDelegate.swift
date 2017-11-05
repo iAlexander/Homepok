@@ -3,16 +3,13 @@
 //  HOMEPOK - Catalog of Ukrainian vehicle plates
 //
 //  Created by Alexander Iashchuk on 12/12/15.
-//  Copyright © 2015 Alexander Iashchuk (iAlexander), https://iashchuk.com
+//  Copyright © 2015-2017 Alexander Iashchuk (iAlexander), http://iashchuk.com
 //
 //  This application is released under the MIT license. All rights reserved.
 //
 
 import UIKit
-import Fabric
 import Firebase
-import DigitsKit
-import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,8 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        Fabric.with([Answers.self, Digits.self, Crashlytics.self])
-        FIRApp.configure()
+        FirebaseApp.configure()
 		return true
 	}
 
