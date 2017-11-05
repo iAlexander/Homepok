@@ -1,7 +1,7 @@
-# HOMEPOK 1.9.1 remote repositories list
-# Copyright (c) 2015 Alexander Iashchuk, https://iashchuk.com
+# HOMEPOK 1.9.2 remote repositories list
+# Copyright (c) 2015-2017 Alexander Iashchuk (iAlexander), http://iashchuk.com
 
-platform :ios, '9.3'
+platform :ios, '10.0'
 
 target 'HOMEPOK' do
   
@@ -9,11 +9,9 @@ target 'HOMEPOK' do
 
   # Pods for HOMEPOK
   
-  pod 'Fabric'
-  pod 'Digits'
-  pod 'Crashlytics'
   pod 'Firebase/Core'
   pod 'Firebase/Crash'
   pod 'Firebase/Database'
+  pod 'Firebase/Performance'
 
 end
