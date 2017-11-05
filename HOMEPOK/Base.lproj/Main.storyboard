@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ycD-6z-eom">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ycD-6z-eom">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,10 +23,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="agc-ti-37s">
-                                <rect key="frame" x="-4" y="0.0" width="383" height="165"/>
+                                <rect key="frame" x="-4" y="0.0" width="383" height="185"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bgr-GB-ke7">
-                                        <rect key="frame" x="36" y="64" width="311" height="60"/>
+                                        <rect key="frame" x="36" y="84" width="311" height="60"/>
                                         <subviews>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="plateUkraineNewLeft" translatesAutoresizingMaskIntoConstraints="NO" id="Q6n-Xe-Q8m">
                                                 <rect key="frame" x="0.0" y="0.0" width="31" height="60"/>
@@ -45,14 +45,14 @@
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOMEPOK.COM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENJ-8s-whh" propertyAccessControl="localizable">
-                                        <rect key="frame" x="8" y="30" width="367" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOMEPOK.COM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENJ-8s-whh">
+                                        <rect key="frame" x="8" y="50" width="367" height="24"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                         <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the first two letters of the plate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="lsx-8J-cby" propertyAccessControl="localizable">
-                                        <rect key="frame" x="8" y="134" width="367" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the first two letters of the plate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="lsx-8J-cby">
+                                        <rect key="frame" x="8" y="154" width="367" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="SaQ-4u-pjA"/>
                                         </constraints>
@@ -61,7 +61,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPn-qd-OOW">
-                                        <rect key="frame" x="341" y="31" width="22" height="22"/>
+                                        <rect key="frame" x="341" y="51" width="22" height="22"/>
                                         <color key="tintColor" red="1" green="0.83323150869999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="tutorialButton:" destination="ycD-6z-eom" eventType="touchUpInside" id="rCp-Mf-s5C"/>
@@ -70,9 +70,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.35686274509999999" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="165" id="0IH-yI-Tg9"/>
+                                    <constraint firstAttribute="height" constant="185" id="0IH-yI-Tg9"/>
                                     <constraint firstItem="ENJ-8s-whh" firstAttribute="centerX" secondItem="agc-ti-37s" secondAttribute="centerX" id="4oT-kH-lvl"/>
-                                    <constraint firstItem="ENJ-8s-whh" firstAttribute="top" secondItem="agc-ti-37s" secondAttribute="topMargin" constant="22" id="7jF-3f-tIL"/>
                                     <constraint firstAttribute="trailing" secondItem="hPn-qd-OOW" secondAttribute="trailing" constant="20" id="C05-Yp-y5v"/>
                                     <constraint firstItem="hPn-qd-OOW" firstAttribute="centerY" secondItem="ENJ-8s-whh" secondAttribute="centerY" id="Ccg-9u-9re"/>
                                     <constraint firstItem="lsx-8J-cby" firstAttribute="trailing" secondItem="agc-ti-37s" secondAttribute="trailingMargin" id="HZs-ol-AKP"/>
@@ -82,12 +81,11 @@
                                     <constraint firstItem="ENJ-8s-whh" firstAttribute="leading" secondItem="agc-ti-37s" secondAttribute="leadingMargin" id="Vpa-fk-TA5"/>
                                     <constraint firstItem="Bgr-GB-ke7" firstAttribute="centerX" secondItem="agc-ti-37s" secondAttribute="centerX" id="bRk-TI-ydf"/>
                                     <constraint firstItem="lsx-8J-cby" firstAttribute="top" secondItem="Bgr-GB-ke7" secondAttribute="bottom" constant="10" id="gTx-OR-Eto"/>
-                                    <constraint firstItem="ENJ-8s-whh" firstAttribute="trailing" secondItem="agc-ti-37s" secondAttribute="trailingMargin" id="gZB-Pj-vTX"/>
                                     <constraint firstAttribute="bottom" secondItem="lsx-8J-cby" secondAttribute="bottom" constant="10" id="pSC-lG-xAq"/>
                                 </constraints>
                             </view>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="mapUkraine28" translatesAutoresizingMaskIntoConstraints="NO" id="stQ-SZ-iUQ">
-                                <rect key="frame" x="16" y="175" width="343" height="302"/>
+                                <rect key="frame" x="16" y="195" width="343" height="282"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="415" id="nPF-MW-c1i">
                                         <variation key="heightClass=compact-widthClass=regular" constant="380"/>
@@ -120,7 +118,7 @@
                                             </mask>
                                         </variation>
                                     </imageView>
-                                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="cMG-Bv-8EP" propertyAccessControl="localizable">
+                                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="cMG-Bv-8EP">
                                         <rect key="frame" x="128" y="0.0" width="215" height="160"/>
                                         <string key="text">Copyright © 2015
 https://iashchuk.com</string>
@@ -155,7 +153,6 @@ https://iashchuk.com</string>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="agc-ti-37s" firstAttribute="top" secondItem="ifs-7q-UWR" secondAttribute="topMargin" id="0Zm-Th-keU"/>
                             <constraint firstItem="Yb0-UZ-lA1" firstAttribute="centerX" secondItem="ifs-7q-UWR" secondAttribute="centerX" id="2V2-Te-LBo"/>
                             <constraint firstAttribute="trailingMargin" secondItem="agc-ti-37s" secondAttribute="trailing" constant="-20" id="CuB-A2-Gyq"/>
                             <constraint firstItem="stQ-SZ-iUQ" firstAttribute="leading" secondItem="Yb0-UZ-lA1" secondAttribute="trailing" constant="10" id="FFQ-WE-G2s"/>
@@ -164,6 +161,7 @@ https://iashchuk.com</string>
                             <constraint firstAttribute="trailingMargin" secondItem="Yb0-UZ-lA1" secondAttribute="trailing" id="Mss-zl-CHw"/>
                             <constraint firstItem="r5x-n2-zrJ" firstAttribute="top" secondItem="Yb0-UZ-lA1" secondAttribute="bottom" constant="40" id="P4P-Iq-I41"/>
                             <constraint firstItem="Yb0-UZ-lA1" firstAttribute="leading" secondItem="ifs-7q-UWR" secondAttribute="leadingMargin" id="QXq-7c-lNL"/>
+                            <constraint firstItem="agc-ti-37s" firstAttribute="top" secondItem="bSf-me-34H" secondAttribute="bottom" constant="-20" id="TDu-7P-vdP"/>
                             <constraint firstItem="stQ-SZ-iUQ" firstAttribute="leading" secondItem="ifs-7q-UWR" secondAttribute="leadingMargin" id="Xzu-Ya-MeA"/>
                             <constraint firstItem="stQ-SZ-iUQ" firstAttribute="trailing" secondItem="ifs-7q-UWR" secondAttribute="trailingMargin" id="Y0a-v9-hhc"/>
                             <constraint firstItem="Yb0-UZ-lA1" firstAttribute="top" secondItem="stQ-SZ-iUQ" secondAttribute="bottom" constant="10" id="beJ-Re-puj"/>
