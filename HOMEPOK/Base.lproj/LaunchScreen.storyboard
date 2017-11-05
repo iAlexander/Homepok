@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Fri-U9-Kpd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Fri-U9-Kpd">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,22 +24,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="jcu-MW-bsj">
-                                <rect key="frame" x="-4" y="0.0" width="383" height="165"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="НОМЕРОК (v.1.9.1, b.2)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGe-LZ-Cav">
-                                        <rect key="frame" x="8" y="30" width="367" height="24"/>
+                                        <rect key="frame" x="8" y="58" width="359" height="24"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                         <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="developed by iashchuk.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bTG-1q-cF3">
-                                        <rect key="frame" x="8" y="135" width="367" height="20.5"/>
+                                        <rect key="frame" x="8" y="154.5" width="359" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="platePreRendered" translatesAutoresizingMaskIntoConstraints="NO" id="3J3-f2-Qkt">
-                                        <rect key="frame" x="32.5" y="64" width="318" height="61.5"/>
+                                        <rect key="frame" x="50.5" y="92" width="274" height="53"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="3J3-f2-Qkt" secondAttribute="height" multiplier="31:6" id="Esh-Wj-guY"/>
                                         </constraints>
@@ -48,20 +48,19 @@
                                 <color key="backgroundColor" red="0.0" green="0.35686274509999999" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="3J3-f2-Qkt" firstAttribute="top" secondItem="bGe-LZ-Cav" secondAttribute="bottom" constant="10" id="3OA-qu-fTm"/>
-                                    <constraint firstItem="bGe-LZ-Cav" firstAttribute="trailing" secondItem="jcu-MW-bsj" secondAttribute="trailingMargin" id="3ax-Cz-3we"/>
                                     <constraint firstItem="3J3-f2-Qkt" firstAttribute="centerX" secondItem="jcu-MW-bsj" secondAttribute="centerX" id="5hm-bk-hMj"/>
                                     <constraint firstItem="bTG-1q-cF3" firstAttribute="top" secondItem="3J3-f2-Qkt" secondAttribute="bottom" constant="10" id="6py-32-ILa"/>
                                     <constraint firstItem="bGe-LZ-Cav" firstAttribute="leading" secondItem="jcu-MW-bsj" secondAttribute="leadingMargin" id="7iR-pz-VHQ"/>
-                                    <constraint firstItem="bGe-LZ-Cav" firstAttribute="top" secondItem="jcu-MW-bsj" secondAttribute="topMargin" constant="22" id="CfD-D6-WXm"/>
+                                    <constraint firstItem="bGe-LZ-Cav" firstAttribute="top" secondItem="jcu-MW-bsj" secondAttribute="topMargin" constant="30" id="CfD-D6-WXm"/>
                                     <constraint firstItem="bTG-1q-cF3" firstAttribute="trailing" secondItem="jcu-MW-bsj" secondAttribute="trailingMargin" id="CpO-98-bdX"/>
-                                    <constraint firstAttribute="height" constant="165" id="Vvo-as-wPu"/>
+                                    <constraint firstAttribute="height" constant="185" id="Vvo-as-wPu"/>
                                     <constraint firstAttribute="bottom" secondItem="bTG-1q-cF3" secondAttribute="bottom" constant="10" id="a0n-0b-TGY"/>
                                     <constraint firstItem="bGe-LZ-Cav" firstAttribute="centerX" secondItem="jcu-MW-bsj" secondAttribute="centerX" id="nom-VZ-ghE"/>
                                     <constraint firstItem="bTG-1q-cF3" firstAttribute="leading" secondItem="jcu-MW-bsj" secondAttribute="leadingMargin" id="wCI-qP-5tf"/>
                                 </constraints>
                             </view>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="mapUkraine28" translatesAutoresizingMaskIntoConstraints="NO" id="ede-qc-V1s">
-                                <rect key="frame" x="16" y="175" width="343" height="302"/>
+                                <rect key="frame" x="16" y="195" width="343" height="282"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="415" id="E5N-Ub-Z9a">
                                         <variation key="heightClass=compact-widthClass=regular" constant="380"/>
@@ -112,17 +111,17 @@
                             <constraint firstItem="ede-qc-V1s" firstAttribute="leading" secondItem="bq8-dF-08F" secondAttribute="trailing" constant="10" id="AZr-aU-VXr"/>
                             <constraint firstItem="xaj-XZ-sWP" firstAttribute="top" secondItem="ede-qc-V1s" secondAttribute="bottom" constant="10" id="ES3-XH-VAG"/>
                             <constraint firstItem="bq8-dF-08F" firstAttribute="trailing" secondItem="ede-qc-V1s" secondAttribute="trailing" id="F0c-QK-OR4"/>
-                            <constraint firstItem="jcu-MW-bsj" firstAttribute="leading" secondItem="Lir-OY-S6y" secondAttribute="leadingMargin" constant="-20" id="FTg-Sx-Non"/>
+                            <constraint firstItem="jcu-MW-bsj" firstAttribute="leading" secondItem="Lir-OY-S6y" secondAttribute="leadingMargin" constant="-16" id="FTg-Sx-Non"/>
                             <constraint firstItem="ede-qc-V1s" firstAttribute="top" secondItem="jcu-MW-bsj" secondAttribute="bottom" constant="10" id="GJs-je-HFR"/>
                             <constraint firstItem="bq8-dF-08F" firstAttribute="top" secondItem="jcu-MW-bsj" secondAttribute="bottom" constant="20" id="KFZ-th-z3q">
                                 <variation key="heightClass=compact-widthClass=compact" constant="5"/>
                             </constraint>
                             <constraint firstItem="ede-qc-V1s" firstAttribute="centerX" secondItem="Lir-OY-S6y" secondAttribute="centerX" id="L3O-ox-seO"/>
                             <constraint firstItem="ede-qc-V1s" firstAttribute="leading" secondItem="Lir-OY-S6y" secondAttribute="leadingMargin" id="P8C-ih-3gO"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="jcu-MW-bsj" secondAttribute="trailing" constant="-20" id="R52-Zl-TRP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jcu-MW-bsj" secondAttribute="trailing" constant="-16" id="R52-Zl-TRP"/>
                             <constraint firstItem="bq8-dF-08F" firstAttribute="top" secondItem="jcu-MW-bsj" secondAttribute="bottom" constant="35" id="bu0-2f-hEq"/>
                             <constraint firstItem="xaj-XZ-sWP" firstAttribute="top" secondItem="bq8-dF-08F" secondAttribute="bottom" constant="20" id="eF1-ja-cec"/>
-                            <constraint firstItem="jcu-MW-bsj" firstAttribute="top" secondItem="Lir-OY-S6y" secondAttribute="topMargin" id="kIB-q9-cmK"/>
+                            <constraint firstItem="jcu-MW-bsj" firstAttribute="top" secondItem="Lir-OY-S6y" secondAttribute="topMargin" constant="-20" id="kIB-q9-cmK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bq8-dF-08F" secondAttribute="trailing" id="mDn-9A-Qc3"/>
                             <constraint firstItem="xaj-XZ-sWP" firstAttribute="top" secondItem="bq8-dF-08F" secondAttribute="bottom" constant="20" id="qem-b1-uLF">
                                 <variation key="heightClass=compact-widthClass=compact" constant="5"/>
@@ -183,7 +182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9L-hS-mAb" userLabel="First Responder" propertyAccessControl="none" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="966" y="-264"/>
+            <point key="canvasLocation" x="965.60000000000002" y="-264.01799100449779"/>
         </scene>
     </scenes>
     <resources>
