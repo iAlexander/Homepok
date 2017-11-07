@@ -1,15 +1,24 @@
+//
+//  Main.strings (Ukrainian)
+//  HOMEPOK - Catalog of Ukrainian vehicle plates
+//
+//  Created by Alexander Iashchuk on 11/08/17.
+//  Copyright © 2015-2017 Alexander Iashchuk (iAlexander), http://iashchuk.com
+//
+//  This application is released under the MIT license. All rights reserved.
+//
 
 /* Class = "UILabel"; text = "HOMEPOK.COM"; ObjectID = "ENJ-8s-whh"; */
 "ENJ-8s-whh.text" = "НОМЕРОК.УКР";
 
-/* Class = "UILabel"; text = "Enter the first two letters of the plate"; ObjectID = "lsx-8J-cby"; */
-"lsx-8J-cby.text" = "Введіть перші дві літери номера";
-
-/* Class = "UILabel"; text = "Copyright © 2016 iashchuk.com"; ObjectID = "cMG-Bv-8EP"; */
-"cMG-Bv-8EP.text" = "Всі права захищені © 2015-2017 http://iashchuk.com";
-
-/* Class = "UIButton"; normalTitle = "FINISH TUTORIAL"; ObjectID = "PX8-Ae-40u"; */
+/* Class = "UIButton"; normalTitle = "EXIT TUTORIAL"; ObjectID = "PX8-Ae-40u"; */
 "PX8-Ae-40u.normalTitle" = "ЗАКРИТИ НАВЧАННЯ";
 
 /* Class = "UIButton"; normalTitle = "NEXT ⇨"; ObjectID = "QS2-HA-7ac"; */
 "QS2-HA-7ac.normalTitle" = "ДАЛІ ⇨";
+
+/* Class = "UILabel"; text = "Copyright © 2015-2017\nhttp://iashchuk.com"; ObjectID = "cMG-Bv-8EP"; */
+"cMG-Bv-8EP.text" = "Всі права захищені © 2015-2017\nhttp://iashchuk.com";
+
+/* Class = "UILabel"; text = "Enter the first two letters of the plate"; ObjectID = "lsx-8J-cby"; */
+"lsx-8J-cby.text" = "Введіть перші дві літери номера";

@@ -19,8 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A1634991DE4D6BF00D75037 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
-		2A16349B1DE4D6C200D75037 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		2A4BBD111CF0D16C00AF04EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
 		2A4BBD131CF0D16F00AF04EF /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = uk; path = uk.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
 		2A4BBD141CF0D17000AF04EF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
@@ -32,6 +30,8 @@
 		2A5CF3051CC110E000039F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A5CF30A1CC110E000039F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A5CF30C1CC110E000039F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADA45AE1FB2643D0089F33A /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		2ADA45B01FB267310089F33A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EEB43922E10FC0F8CF86CA0 /* Pods-HOMEPOK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOMEPOK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOMEPOK/Pods-HOMEPOK.debug.xcconfig"; sourceTree = "<group>"; };
 		600596B9BFB0E98190B4A4B5 /* Pods_HOMEPOK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HOMEPOK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -272,8 +272,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				2A5CF3051CC110E000039F01 /* Base */,
-				2A1634991DE4D6BF00D75037 /* uk */,
-				2A16349B1DE4D6C200D75037 /* ru */,
+				2ADA45AE1FB2643D0089F33A /* uk */,
+				2ADA45B01FB267310089F33A /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

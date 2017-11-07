@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Fri-U9-Kpd">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,7 +20,7 @@
                         <viewControllerLayoutGuide type="bottom" id="xaj-XZ-sWP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Lir-OY-S6y">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="scN-TY-l1d" userLabel="XView">
@@ -29,22 +29,22 @@
                                 <color key="backgroundColor" red="0.00020956731168553233" green="0.35839307308197021" blue="0.73244351148605347" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="jcu-MW-bsj">
-                                <rect key="frame" x="-48" y="24" width="471" height="185"/>
+                                <rect key="frame" x="-48" y="0.0" width="471" height="185"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="НОМЕРОК (v.1.9.1, b.1)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGe-LZ-Cav">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="НОМЕРОК (v.1.9.1, b.2)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGe-LZ-Cav">
                                         <rect key="frame" x="8" y="58" width="455" height="24"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                         <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="developed by iashchuk.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bTG-1q-cF3">
-                                        <rect key="frame" x="8" y="154.66666666666666" width="455" height="20.333333333333343"/>
+                                        <rect key="frame" x="8" y="154.5" width="455" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.83137254900000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="platePreRendered" translatesAutoresizingMaskIntoConstraints="NO" id="3J3-f2-Qkt">
-                                        <rect key="frame" x="97.666666666666657" y="92" width="276.33333333333337" height="53.333333333333343"/>
+                                        <rect key="frame" x="98.5" y="92" width="274.5" height="53"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="3J3-f2-Qkt" secondAttribute="height" multiplier="31:6" id="Esh-Wj-guY"/>
                                         </constraints>
@@ -65,7 +65,7 @@
                                 </constraints>
                             </view>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="mapUkraine28" translatesAutoresizingMaskIntoConstraints="NO" id="ede-qc-V1s">
-                                <rect key="frame" x="16" y="219" width="343" height="369"/>
+                                <rect key="frame" x="16" y="195" width="343" height="282"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="415" id="E5N-Ub-Z9a">
                                         <variation key="heightClass=compact-widthClass=regular" constant="380"/>
@@ -83,13 +83,13 @@
                                 </variation>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bq8-dF-08F">
-                                <rect key="frame" x="16" y="598" width="343" height="160"/>
+                                <rect key="frame" x="16" y="487" width="343" height="160"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="coatOfArms28" translatesAutoresizingMaskIntoConstraints="NO" id="I5F-a9-n6c">
-                                        <rect key="frame" x="0.0" y="0.0" width="167.66666666666666" height="160"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="167.5" height="160"/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" image="coatOfArms11" translatesAutoresizingMaskIntoConstraints="NO" id="eyF-BH-jI1">
-                                        <rect key="frame" x="175.66666666666663" y="0.0" width="167.33333333333337" height="160"/>
+                                        <rect key="frame" x="175.5" y="0.0" width="167.5" height="160"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
