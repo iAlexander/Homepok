@@ -9,6 +9,7 @@
 //
 
 import UIKit
+import Firebase
 
 class TutorialController: UIViewController {
     
@@ -27,6 +28,12 @@ class TutorialController: UIViewController {
         super.viewDidLoad()
         tutorialLaunchCount = defaults.double(forKey: numberOfTutorialLaunchesKey)
         finishButton.isHidden = true
+        
+        // [START AnalyticsEventTutorialBegin]
+        Analytics.logEvent(AnalyticsEventTutorialBegin, parameters: [:])
+        print("Tutorial startes analytics sent")
+        // [END AnalyticsEventTutorialBegin]
+        
         if tutorialLaunchCount == 0 {
             tutorialLaunchCount += 1
             defaults.set(tutorialLaunchCount, forKey: numberOfTutorialLaunchesKey)
@@ -84,6 +91,12 @@ class TutorialController: UIViewController {
             bottomTextLabel.text = localizedTextOutput("t32")
             tutorialButton.isHidden = true
             finishButton.isHidden = false
+            
+            // [START AnalyticsEventTutorialComplete]
+            Analytics.logEvent(AnalyticsEventTutorialComplete, parameters: [:])
+            print("Tutorial completed analytics sent")
+            // [END AnalyticsEventTutorialComplete]
+            
         }
     }
     

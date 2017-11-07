@@ -9,6 +9,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
@@ -93,11 +94,21 @@ class ViewController: UIViewController, UITextFieldDelegate {
         descriptionOutput(twoLetters, name: region, index: regionIndex)
         searchCount += 1
         defaults.set(searchCount, forKey: numberOfSearchesKey)
+        saveSearchAnalytics(twoLetters)
         print("Search Count: \(searchCount)")
         print("Review Frequency: \(reviewFrequency)")
         if searchCount.truncatingRemainder(dividingBy: reviewFrequency) == 0 {
             askAboutReview()
         }
+    }
+    
+    func saveSearchAnalytics (_ searchLetters: String) {
+        // [START AnalyticsEventSearch]
+        Analytics.logEvent(AnalyticsEventSearch, parameters: [
+            AnalyticsParameterSearchTerm: searchLetters as NSObject
+            ])
+        print("Search analytics sent")
+        // [END AnalyticsEventSearch]
     }
     
     func transformLetters (_ letters: String) -> String {
