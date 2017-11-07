@@ -84,7 +84,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
             return
         }
         textFieldTwoLetters.text!.removeAll()
-        var twoLetters = String(input.characters.prefix(2))
+//        var twoLetters = String(input.characters.prefix(2))
+        var twoLetters = String(input.prefix(2))
         twoLetters = transformLetters(twoLetters)
         textFieldTwoLetters.placeholder = twoLetters
         let regionIndex = regionsIndexChecker(twoLetters)
@@ -100,8 +101,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func transformLetters (_ letters: String) -> String {
-        let firstLetter = String(letters.characters.prefix(1))
-        let secondLetter = String(letters.characters.suffix(1))
+        let firstLetter = String(letters.prefix(1))
+        let secondLetter = String(letters.suffix(1))
         var result = transformLetterToLatin(firstLetter)
         result += transformLetterToLatin(secondLetter)
         return result
