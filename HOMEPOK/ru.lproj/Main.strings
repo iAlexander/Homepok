@@ -18,7 +18,7 @@
 "QS2-HA-7ac.normalTitle" = "ДАЛЬШЕ ⇨";
 
 /* Class = "UILabel"; text = "Copyright © 2015-2017\nhttp://iashchuk.com"; ObjectID = "cMG-Bv-8EP"; */
-"cMG-Bv-8EP.text" = "Все права защищены © 2015-2017\nhttp://iashchuk.com";
+"cMG-Bv-8EP.text" = "Все права защищены © 2015-2017 KyivApp Development Studio http://kyivapp.com";
 
 /* Class = "UILabel"; text = "Enter the first two letters of the plate"; ObjectID = "lsx-8J-cby"; */
 "lsx-8J-cby.text" = "Введите две первые буквы номера";
