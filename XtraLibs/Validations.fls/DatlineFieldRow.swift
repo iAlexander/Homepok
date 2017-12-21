@@ -1,4 +1,4 @@
-//  LabelRow.swift
+//  DateInlineFieldRow.swift
 //  Eureka ( https://github.com/xmartlabs/Eureka )
 //
 //  Copyright (c) 2016 Xmartlabs SRL ( http://xmartlabs.com )
@@ -24,11 +24,9 @@
 
 import Foundation
 
-// MARK: LabelCell
+open class DateInlineCell: Cell<Date>, CellType {
 
-open class LabelCellOf<T: Equatable>: Cell<T>, CellType {
-
-    required public init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    public required init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
     }
 
@@ -38,23 +36,44 @@ open class LabelCellOf<T: Equatable>: Cell<T>, CellType {
 
     open override func setup() {
         super.setup()
-        selectionStyle = .none
+        accessoryType = .none
+        editingAccessoryType =  .none
+    }
+
+    open override func update() {
+        super.update()
+        selectionStyle = row.isDisabled ? .none : .default
+    }
+
+    open override func didSelect() {
+        super.didSelect()
+        row.deselect()
     }
 }
 
-public typealias LabelCell = LabelCellOf<String>
+open class _DateInlineFieldRow: Row<DateInlineCell>, DatePickerRowProtocol, NoValueDisplayTextConformance {
 
-// MARK: LabelRow
+    /// The minimum value for this row's UIDatePicker
+    open var minimumDate: Date?
 
-open class _LabelRow: Row<LabelCell> {
+    /// The maximum value for this row's UIDatePicker
+    open var maximumDate: Date?
+
+    /// The interval between options for this row's UIDatePicker
+    open var minuteInterval: Int?
+
+    /// The formatter for the date picked by the user
+    open var dateFormatter: DateFormatter?
+
+    open var noValueDisplayText: String?
+
     required public init(tag: String?) {
         super.init(tag: tag)
-    }
-}
-
-/// Simple row that can show title and value but is not editable by user.
-public final class LabelRow: _LabelRow, RowType {
-    required public init(tag: String?) {
-        super.init(tag: tag)
+        dateFormatter = DateFormatter()
+        dateFormatter?.locale = Locale.current
+        displayValueFor = { [unowned self] value in
+            guard let val = value, let formatter = self.dateFormatter else { return nil }
+            return formatter.string(from: val)
+        }
     }
 }
