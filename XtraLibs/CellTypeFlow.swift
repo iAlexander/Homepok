@@ -131,7 +131,105 @@ public protocol BaseCellType : class {
      Called when cell is about to become first responder
      
      - returns: If the cell should become first responder.
+     */     */
+    func didSelect()
+    
+    /**
+     Called when cell is about to become first responder
+     
+     - returns: If the cell should become first responder.
      */
+    func cellCanBecomeFirstResponder() -> Bool
+    
+    /**
+     Method called when the cell becomes first responder
+     */
+    func cellBecomeFirstResponder(withDirection: Direction) -> Bool
+    
+    /**
+     Method called when the cell resigns first responder
+     */
+    func cellResignFirstResponder() -> Bool
+    
+    /**
+     A reference to the controller in which the cell is displayed.
+     */
+    func formViewController () -> FormViewController?
+}
+
+public protocol TypedCellType: BaseCellType {
+    
+    associatedtype Value: Equatable
+    
+    /// The row associated to this cell.
+    var row: RowOf<Value>! { get set }
+}
+*/
+func didSelect()
+
+/**
+ Called when cell is about to become first responder
+ 
+ - returns: If the cell should become first responder.
+ */
+func cellCanBecomeFirstResponder() -> Bool
+
+/**
+ Method called when the cell becomes first responder
+ */
+func cellBecomeFirstResponder(withDirection: Direction) -> Bool
+
+/**
+ Method called when the cell resigns first responder
+ */
+func cellResignFirstResponder() -> Bool
+
+/**
+ A reference to the controller in which the cell is displayed.
+ */
+func formViewController () -> FormViewController?
+}
+
+public protocol TypedCellType: BaseCellType {
+    
+    associatedtype Value: Equatable
+    
+    /// The row associated to this cell.
+    var row: RowOf<Value>! { get set }
+}
+*/
+func didSelect()
+
+/**
+ Called when cell is about to become first responder
+ 
+ - returns: If the cell should become first responder.
+ */
+func cellCanBecomeFirstResponder() -> Bool
+
+/**
+ Method called when the cell becomes first responder
+ */
+func cellBecomeFirstResponder(withDirection: Direction) -> Bool
+
+/**
+ Method called when the cell resigns first responder
+ */
+func cellResignFirstResponder() -> Bool
+
+/**
+ A reference to the controller in which the cell is displayed.
+ */
+func formViewController () -> FormViewController?
+}
+
+public protocol TypedCellType: BaseCellType {
+    
+    associatedtype Value: Equatable
+    
+    /// The row associated to this cell.
+    var row: RowOf<Value>! { get set }
+}
     func cellCanBecomeFirstResponder() -> Bool
     
     /**
@@ -286,7 +384,105 @@ public protocol BaseCellType : class {
     
     /**
      Method called each time the cell is selected (tapped on by the user).
+     */     */
+    func didSelect()
+    
+    /**
+     Called when cell is about to become first responder
+     
+     - returns: If the cell should become first responder.
      */
+    func cellCanBecomeFirstResponder() -> Bool
+    
+    /**
+     Method called when the cell becomes first responder
+     */
+    func cellBecomeFirstResponder(withDirection: Direction) -> Bool
+    
+    /**
+     Method called when the cell resigns first responder
+     */
+    func cellResignFirstResponder() -> Bool
+    
+    /**
+     A reference to the controller in which the cell is displayed.
+     */
+    func formViewController () -> FormViewController?
+}
+
+public protocol TypedCellType: BaseCellType {
+    
+    associatedtype Value: Equatable
+    
+    /// The row associated to this cell.
+    var row: RowOf<Value>! { get set }
+}
+*/
+func didSelect()
+
+/**
+ Called when cell is about to become first responder
+ 
+ - returns: If the cell should become first responder.
+ */
+func cellCanBecomeFirstResponder() -> Bool
+
+/**
+ Method called when the cell becomes first responder
+ */
+func cellBecomeFirstResponder(withDirection: Direction) -> Bool
+
+/**
+ Method called when the cell resigns first responder
+ */
+func cellResignFirstResponder() -> Bool
+
+/**
+ A reference to the controller in which the cell is displayed.
+ */
+func formViewController () -> FormViewController?
+}
+
+public protocol TypedCellType: BaseCellType {
+    
+    associatedtype Value: Equatable
+    
+    /// The row associated to this cell.
+    var row: RowOf<Value>! { get set }
+}
+*/
+func didSelect()
+
+/**
+ Called when cell is about to become first responder
+ 
+ - returns: If the cell should become first responder.
+ */
+func cellCanBecomeFirstResponder() -> Bool
+
+/**
+ Method called when the cell becomes first responder
+ */
+func cellBecomeFirstResponder(withDirection: Direction) -> Bool
+
+/**
+ Method called when the cell resigns first responder
+ */
+func cellResignFirstResponder() -> Bool
+
+/**
+ A reference to the controller in which the cell is displayed.
+ */
+func formViewController () -> FormViewController?
+}
+
+public protocol TypedCellType: BaseCellType {
+    
+    associatedtype Value: Equatable
+    
+    /// The row associated to this cell.
+    var row: RowOf<Value>! { get set }
+}
     func didSelect()
     
     /**
@@ -321,3 +517,9 @@ public protocol TypedCellType: BaseCellType {
 }
 
 public protocol CellType: TypedCellType {}
+
+http://kyivapp.com
+http://kyivapp.com
+http://kyivapp.com
+http://kyivapp.comhttp://kyivapp.comhttp://kyivapp.com
+
