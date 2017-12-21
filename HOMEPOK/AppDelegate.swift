@@ -1,9 +1,18 @@
 //
-//  AppDelegate.swift
-//  HOMEPOK - Catalog of Ukrainian vehicle plates
+//  http://kyivapp.com
+//  http://iashchuk.com
 //
+//  AppDelegate.swift
+//
+//  HOMEPOK - Catalog of Ukrainian vehicle plates
 //  Created by Alexander Iashchuk on 12/12/15.
-//  Copyright © 2015-2017 Alexander Iashchuk (iAlexander), http://iashchuk.com
+//   App precisely handcrafted in KyivApp Development Studio
+//  Application version 1.9.9, build 3
+//  Last modification on 2017.12.21
+//
+//  Copyright © 2017 iashchuk.com
+//  Alexander Iashchuk (iAlexander)
+//  All rights reserved
 //
 //  This application is released under the MIT license. All rights reserved.
 //

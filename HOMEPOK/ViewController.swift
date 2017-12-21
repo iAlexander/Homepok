@@ -1,6 +1,11 @@
 //
+//  http://kyivapp.com
+//  http://iashchuk.com
+//
 //  ViewController.swift
+//
 //  HOMEPOK - Catalog of Ukrainian vehicle plates
+//  File created by Alexander Iashchuk on 4/15/16.
 //
 //  Created by Alexander Iashchuk on 4/15/16.
 //  Copyright © 2015-2017 Alexander Iashchuk (iAlexander), http://iashchuk.com
