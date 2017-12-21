@@ -2,11 +2,11 @@
 [![Platform](https://img.shields.io/badge/iOS-9.3-lightgray.svg?style=flat)](#)
 [![Devices](https://img.shields.io/badge/Devices-iPhone_and_iPad-green.svg?style=flat)](#)
 [![Version](https://img.shields.io/badge/App_version-1.9.9-blue.svg?style=flat)](#)
-[![AppStore](https://img.shields.io/badge/App_Store-Free-brightgreen.svg?style=flat)](http://ialexander.me/2e3Zxeh)
+[![AppStore](https://img.shields.io/badge/App_Store-Free-brightgreen.svg?style=flat)](http://kyivapp.com)
 
-[![HOMEPOK - Catalog of Ukrainian vehicle plates](https://raw.githubusercontent.com/iAlexander/Homepok/master/Header.jpg)](https://ialexander.me/2e3Zxeh)
+[![HOMEPOK - Catalog of Ukrainian vehicle plates](https://raw.githubusercontent.com/iAlexander/Homepok/master/Header.jpg)](http://kyivapp.com)
 
-## HOMEPOK - Catalog of Ukrainian vehicle plates, available on <a href="http://ialexander.me/2e3Zxeh">App Store</a>
+## HOMEPOK - Catalog of Ukrainian vehicle plates, available on <a href="http://kyivapp.com">App Store</a>
 1. [Description](#description)
 2. [Screenshots](#screenshots)
 3. [License](#license)
@@ -19,7 +19,7 @@ The main goal of the iPhone application ```HOMEPOK``` - is to show people the re
 
 ## <a name="screenshots">Screenshots:</a>
 
-[![HOMEPOK - Catalog of Ukrainian vehicle plates](https://raw.githubusercontent.com/iAlexander/Homepok/master/Screenshots.jpg)](https://ialexander.me/2e3Zxeh)
+[![HOMEPOK - Catalog of Ukrainian vehicle plates](https://raw.githubusercontent.com/iAlexander/Homepok/master/Screenshots.jpg)](http://kyivapp.com)
 
 ## <a name="license">License:</a>
 
