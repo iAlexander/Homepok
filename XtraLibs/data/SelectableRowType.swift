@@ -1,7 +1,7 @@
-//  RuleRequire.swift
+//  SelectableRowType.swift
 //  Eureka ( https://github.com/xmartlabs/Eureka )
 //
-//  Copyright (c) 2016 Xmartlabs SRL ( http://xmartlabs.com )
+//  Copyright (c) 2016 Xmartlabs ( http://xmartlabs.com )
 //
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,19 +24,9 @@
 
 import Foundation
 
-public struct RuleRequired<T: Equatable>: RuleType {
-
-    public init(msg: String = "Field required!") {
-        self.validationError = ValidationError(msg: msg)
-    }
-
-    public var id: String?
-    public var validationError: ValidationError
-
-    public func isValid(value: T?) -> ValidationError? {
-        if let str = value as? String {
-            return str.isEmpty ? validationError : nil
-        }
-        return value != nil ? nil : validationError
-    }
+/**
+ *  Every row that shall be used in a SelectableSection must conform to this protocol.
+ */
+public protocol SelectableRowType: RowType {
+    var selectableValue: Cell.Value? { get set }
 }
