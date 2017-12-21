@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A227DE41FEC687B00D536AC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A227DE31FEC687B00D536AC /* Settings.bundle */; };
 		2A4BBD101CF0D16C00AF04EF /* LocalizedStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A4BBD121CF0D16C00AF04EF /* LocalizedStrings.plist */; };
 		2A4EB3FF1E098C730017E31E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A4EB3FE1E098C730017E31E /* GoogleService-Info.plist */; };
 		2A567A7A1DE394BF0033705A /* TutorialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A567A791DE394BF0033705A /* TutorialController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A227DE31FEC687B00D536AC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		2A4BBD111CF0D16C00AF04EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
 		2A4BBD131CF0D16F00AF04EF /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = uk; path = uk.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
 		2A4BBD141CF0D17000AF04EF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/LocalizedStrings.plist; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				2AE3EDAD1CC62F1C00AFDB4D /* Assets.xcassets */,
 				2A5CF3091CC110E000039F01 /* LaunchScreen.storyboard */,
 				2A4BBD121CF0D16C00AF04EF /* LocalizedStrings.plist */,
+				2A227DE31FEC687B00D536AC /* Settings.bundle */,
 				2A5CF30C1CC110E000039F01 /* Info.plist */,
 				2A4EB3FE1E098C730017E31E /* GoogleService-Info.plist */,
 			);
@@ -178,6 +181,7 @@
 				2AE3EDAE1CC62F1C00AFDB4D /* Assets.xcassets in Resources */,
 				2A5CF3061CC110E000039F01 /* Main.storyboard in Resources */,
 				2A4BBD101CF0D16C00AF04EF /* LocalizedStrings.plist in Resources */,
+				2A227DE41FEC687B00D536AC /* Settings.bundle in Resources */,
 				2A4EB3FF1E098C730017E31E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
